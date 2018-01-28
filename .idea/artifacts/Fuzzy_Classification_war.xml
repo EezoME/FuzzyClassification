@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Fuzzy Classification:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="fuzzy-classification.war">
+      <element id="artifact" artifact-name="Fuzzy Classification:war exploded" />
+    </root>
+  </artifact>
+</component>

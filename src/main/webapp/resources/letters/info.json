@@ -1,0 +1,68 @@
+{
+  "additional-tags": [
+    {
+      "tag": "require-answer",
+      "ru": "Письмо, требующее ответа",
+      "en": "Letter requiring an answer"
+    },
+    {
+      "tag": "not-require-answer",
+      "ru": "Письмо, не требующее ответа",
+      "en": "Letter that do not require an answer"
+    },
+    {
+      "tag": "circular",
+      "ru": "Циркулярное письмо",
+      "en": "Circular letter",
+      "explanation-ru": "Письмо, адресованное нескольким адресатам"
+    },
+    {
+      "tag": "ordinary",
+      "ru": "Обычное письмо",
+      "en": "Ordinary letter",
+      "explanation-ru": "Письмо, адресованное одному адресату"
+    },
+    {
+      "tag": "single-aspect",
+      "ru": "Одноаспектное",
+      "en": "Single-aspect letter",
+      "explanation-ru": "Рассматривает один вопрос"
+    },
+    {
+      "tag": "multi-aspect",
+      "ru": "Мультиаспектное",
+      "en": "Multi-aspect letter",
+      "explanation-ru": "Затрагивает несколько вопросов"
+    },
+    {
+      "tag": "regulated",
+      "ru": "Регламентированное",
+      "en": "Regulated letter",
+      "explanation-ru": "Составляется по определенному установленному образцу"
+    },
+    {
+      "tag": "unregulated",
+      "ru": "Нерегламентированное",
+      "en": "Unregulated letter",
+      "explanation-ru": "Содержит авторский текст и составляется в свободной форме, не имеет установленного образца"
+    },
+    {
+      "tag": "envelope",
+      "ru": "Конвертное",
+      "en": "Envelope letter",
+      "explanation-ru": "Отправленное с помощью почты в конверте"
+    },
+    {
+      "tag": "electronic",
+      "ru": "Электронное",
+      "en": "Electronic letter",
+      "explanation-ru": "Отправленное в электронном виде на e-mail"
+    },
+    {
+      "tag": "fax",
+      "ru": "Факсовое",
+      "en": "Fax letter",
+      "explanation-ru": "Отправленное по факсу"
+    }
+  ]
+}

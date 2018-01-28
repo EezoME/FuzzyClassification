@@ -1,15 +1,20 @@
 package edu.eezo.fzcl.entities.internal;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class ContentAnalizer {
     private Map<String, Integer> wordsCounter;
+    private List<String> uniqueWords;
 
     public ContentAnalizer() {
         this.wordsCounter = new HashMap<>();
+        this.uniqueWords = new ArrayList<>();
     }
+
+    // TODO: найти более подходяшие примеры писем
+    // TODO: найти способ выделять однокоренные слова
+    // TODO: найти уникальные слова для каждого типа письма
+    // TODO: найти общие слова для нескольких/всех типов писем
 
     public void analizeString(String line) {
         line = line.toLowerCase();

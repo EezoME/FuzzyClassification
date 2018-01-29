@@ -17,6 +17,9 @@
     <p:growl autoUpdate="true"/>
     <div class="main">
         <p:panel id="basic" header="Letters Investigation">
+            <h:form>
+                <h:commandLink action="#{teachingController.init()}" value="Rerun"/>
+            </h:form>
             <h:panelGrid columns="2">
                 <p:dataTable var="letterType" value="#{teachingController.service.letterTypes}">
                     <p:column headerText="Tags">
@@ -38,29 +41,25 @@
                         </ui:repeat>
                     </p:column>
 
-                    <p:column headerText="Possible keywords&lt;br/&gt;every word with 4+ letters">
-                        <c:if test="#{letterType.contentAnalizer.uniqueWords.isEmpty()}">
-                            <span class="no-unique-message">Letter has no <span class="unique">unique</span> words.</span><br/>
-                        </c:if>
+                    <p:column
+                            headerText="Possible keywords&lt;br/&gt;&lt;span style='font-size: smaller'&gt;every word with 4+ letters&lt;/span&gt;">
+                        <h:outputText id="no-unique" rendered="#{letterType.contentAnalizer.uniqueWords.isEmpty()}"
+                                      styleClass="no-unique-message" value="Letter has no unique words."/>
+                        <h:outputText id="unique-count" rendered="#{!letterType.contentAnalizer.uniqueWords.isEmpty()}"
+                                      styleClass="no-unique-message"
+                                      value="Unique words: #{letterType.contentAnalizer.uniqueWords.size()} / total: #{letterType.contentAnalizer.wordsCounterFiltered.size()}"/><br/>
                         <ui:repeat value="#{letterType.contentAnalizer.getWordsCounterFiltered().keySet().toArray()}"
                                    var="word">
-                            <c:if test="#{letterType.contentAnalizer.uniqueWords.contains(word)}">
-                                <c:set var="uniq" value="true"/>
-                            </c:if>
-                            <c:if test="#{uniq}">
-                                <span class="unique">#{word}: #{letterType.contentAnalizer.wordsCounter.get(word)}</span>
-                            </c:if>
-                            <c:if test="#{!uniq}">
-                                #{word}: #{letterType.contentAnalizer.wordsCounter.get(word)}
-                            </c:if>
+                            <h:outputText rendered="#{letterType.contentAnalizer.uniqueWords.contains(word)}"
+                                          styleClass="unique"
+                                          value="#{word}: #{letterType.contentAnalizer.wordsCounter.get(word)}"/>
+                            <h:outputText rendered="#{!letterType.contentAnalizer.uniqueWords.contains(word)}"
+                                          value="#{word}: #{letterType.contentAnalizer.wordsCounter.get(word)}"/>
                             <br/>
                         </ui:repeat>
                     </p:column>
                 </p:dataTable>
             </h:panelGrid>
-            <h:form>
-                <h:commandLink action="#{teachingController.init()}" value="Rerun"/>
-            </h:form>
         </p:panel>
     </div>
 </h:body>

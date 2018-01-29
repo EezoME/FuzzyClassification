@@ -133,12 +133,11 @@ public class LetterService {
     public void searchForUniqueWords() {
         for (LetterType letterType : letterTypes) {
             Set<String> filteredWords = letterType.getContentAnalizer().getWordsCounterFiltered().keySet();
-//            System.out.println(filteredWords.size());
 
             for (LetterType letterType1 : letterTypes) {
+                if (letterType.equals(letterType1)) continue;
                 Set<String> filteredWordsCompared = letterType1.getContentAnalizer().getWordsCounterFiltered().keySet();
                 filteredWords.removeAll(filteredWordsCompared);
-//                System.out.println(filteredWords.size());
             }
             letterType.getContentAnalizer().setUniqueWords(filteredWords);
         }

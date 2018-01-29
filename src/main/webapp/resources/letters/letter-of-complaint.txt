@@ -55,87 +55,75 @@ additional-tags = require-answer, ordinary, single-aspect, unregulated, electron
 3. Товаротранспортная накладная № .
 4. Другие документы, обосновывающие претензию на листах
 ;
-Это вызывает цепь определенных затруднений. This sets up a chain involving several complications.
-Я очень обеспокоен тем, что Вы не сможете  I am most disturbed that you will not be able to 
-Я писал Вам, выражая наш интерес в < >, но не получил никакого ответа. I wrote to you expressing our iterest in but heard no more.
-Мы не удовлетворены предложенными Вами условиями. We are not happy about the terms you suggested.
-Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну. This activity is hampered by limited availability of our production in your country.
-Я просто не могу понять, почему Вы не предупредили нас  I simply cannot understand why you did not tell us 
-Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию. I am very disappointed about this fact, and hope that you can help me to clear out this very strange situation.
-Настоящим письмом я заявляю категорический протест против  By this letter I emphatically protest against..
-Это, полагаю Вы согласитесь, не лучший способ вести дела. This is, I am sure you will agree, not a good way to conduct business.
-Я боюсь, мы должны расторгнуть договор, поскольку  I am afraid that we must cancel the agreement as 
-Мы категорически запрещаем Вам  We emphatically deny you permission to 
+Это вызывает цепь определенных затруднений.
+Я очень обеспокоен тем, что Вы не сможете
+Я писал Вам, выражая наш интерес в, но не получил никакого ответа.
+Мы не удовлетворены предложенными Вами условиями.
+Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну.
+Я просто не могу понять, почему Вы не предупредили нас
+Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию.
+Настоящим письмом я заявляю категорический протест против
+Это, полагаю Вы согласитесь, не лучший способ вести дела.
+Я боюсь, мы должны расторгнуть договор, поскольку
+Мы категорически запрещаем Вам
 ;
-Это вызывает цепь определенных затруднений. This sets up a chain involving several complications.
-Я очень обеспокоен тем, что Вы не сможете  I am most disturbed that you will not be able to
-Я писал Вам, выражая наш интерес в < >, но не получил никакого ответа. I wrote to you expressing our iterest in but heard no more.
-Мы не удовлетворены предложенными Вами условиями. We are not happy about the terms you suggested.
-Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну. This activity is hampered by limited availability of our production in your country.
-Я просто не могу понять, почему Вы не предупредили нас  I simply cannot understand why you did not tell us
-Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию. I am very disappointed about this fact, and hope that you can help me to clear out this very strange situation.
-Настоящим письмом я заявляю категорический протест против  By this letter I emphatically protest against..
-Это, полагаю Вы согласитесь, не лучший способ вести дела. This is, I am sure you will agree, not a good way to conduct business.
-Я боюсь, мы должны расторгнуть договор, поскольку  I am afraid that we must cancel the agreement as
-Мы категорически запрещаем Вам  We emphatically deny you permission to
+Это вызывает цепь определенных затруднений.
+Я очень обеспокоен тем, что Вы не сможете
+Я писал Вам, выражая наш интерес в, но не получил никакого ответа.
+Мы не удовлетворены предложенными Вами условиями.
+Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну.
+Я просто не могу понять, почему Вы не предупредили нас
+Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию.
+Настоящим письмом я заявляю категорический протест против
+Это, полагаю Вы согласитесь, не лучший способ вести дела.
+Я боюсь, мы должны расторгнуть договор, поскольку
+Мы категорически запрещаем Вам
 ;
-Это вызывает цепь определенных затруднений. This sets up a chain involving several complications.
-Я очень обеспокоен тем, что Вы не сможете  I am most disturbed that you will not be able to
-Я писал Вам, выражая наш интерес в < >, но не получил никакого ответа. I wrote to you expressing our iterest in but heard no more.
-Мы не удовлетворены предложенными Вами условиями. We are not happy about the terms you suggested.
-Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну. This activity is hampered by limited availability of our production in your country.
-Я просто не могу понять, почему Вы не предупредили нас  I simply cannot understand why you did not tell us
-Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию. I am very disappointed about this fact, and hope that you can help me to clear out this very strange situation.
-Настоящим письмом я заявляю категорический протест против  By this letter I emphatically protest against..
-Это, полагаю Вы согласитесь, не лучший способ вести дела. This is, I am sure you will agree, not a good way to conduct business.
-Я боюсь, мы должны расторгнуть договор, поскольку  I am afraid that we must cancel the agreement as
-Мы категорически запрещаем Вам  We emphatically deny you permission to
+Это вызывает цепь определенных затруднений.
+Я очень обеспокоен тем, что Вы не сможете
+Я писал Вам, выражая наш интерес в, но не получил никакого ответа.
+Мы не удовлетворены предложенными Вами условиями.
+Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну.
+Я просто не могу понять, почему Вы не предупредили нас
+Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию.
+Настоящим письмом я заявляю категорический протест против
+Это, полагаю Вы согласитесь, не лучший способ вести дела.
+Я боюсь, мы должны расторгнуть договор, поскольку
+Мы категорически запрещаем Вам
 ;
-Это вызывает цепь определенных затруднений. This sets up a chain involving several complications.
-Я очень обеспокоен тем, что Вы не сможете  I am most disturbed that you will not be able to
-Я писал Вам, выражая наш интерес в < >, но не получил никакого ответа. I wrote to you expressing our iterest in but heard no more.
-Мы не удовлетворены предложенными Вами условиями. We are not happy about the terms you suggested.
-Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну. This activity is hampered by limited availability of our production in your country.
-Я просто не могу понять, почему Вы не предупредили нас  I simply cannot understand why you did not tell us
-Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию. I am very disappointed about this fact, and hope that you can help me to clear out this very strange situation.
-Настоящим письмом я заявляю категорический протест против  By this letter I emphatically protest against..
-Это, полагаю Вы согласитесь, не лучший способ вести дела. This is, I am sure you will agree, not a good way to conduct business.
-Я боюсь, мы должны расторгнуть договор, поскольку  I am afraid that we must cancel the agreement as
-Мы категорически запрещаем Вам  We emphatically deny you permission to
+Это вызывает цепь определенных затруднений.
+Я очень обеспокоен тем, что Вы не сможете
+Я писал Вам, выражая наш интерес в, но не получил никакого ответа.
+Мы не удовлетворены предложенными Вами условиями.
+Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну.
+Я просто не могу понять, почему Вы не предупредили нас
+Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию.
+Настоящим письмом я заявляю категорический протест против
+Это, полагаю Вы согласитесь, не лучший способ вести дела.
+Я боюсь, мы должны расторгнуть договор, поскольку
+Мы категорически запрещаем Вам
 ;
-Это вызывает цепь определенных затруднений. This sets up a chain involving several complications.
-Я очень обеспокоен тем, что Вы не сможете  I am most disturbed that you will not be able to
-Я писал Вам, выражая наш интерес в < >, но не получил никакого ответа. I wrote to you expressing our iterest in but heard no more.
-Мы не удовлетворены предложенными Вами условиями. We are not happy about the terms you suggested.
-Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну. This activity is hampered by limited availability of our production in your country.
-Я просто не могу понять, почему Вы не предупредили нас  I simply cannot understand why you did not tell us
-Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию. I am very disappointed about this fact, and hope that you can help me to clear out this very strange situation.
-Настоящим письмом я заявляю категорический протест против  By this letter I emphatically protest against..
-Это, полагаю Вы согласитесь, не лучший способ вести дела. This is, I am sure you will agree, not a good way to conduct business.
-Я боюсь, мы должны расторгнуть договор, поскольку  I am afraid that we must cancel the agreement as
-Мы категорически запрещаем Вам  We emphatically deny you permission to
+Это вызывает цепь определенных затруднений.
+Я очень обеспокоен тем, что Вы не сможете
+Я писал Вам, выражая наш интерес в, но не получил никакого ответа.
+Мы не удовлетворены предложенными Вами условиями.
+Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну.
+Я просто не могу понять, почему Вы не предупредили нас
+Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию.
+Настоящим письмом я заявляю категорический протест против
+Это, полагаю Вы согласитесь, не лучший способ вести дела.
+Я боюсь, мы должны расторгнуть договор, поскольку
+Мы категорически запрещаем Вам
 ;
-Это вызывает цепь определенных затруднений. This sets up a chain involving several complications.
-Я очень обеспокоен тем, что Вы не сможете  I am most disturbed that you will not be able to
-Я писал Вам, выражая наш интерес в < >, но не получил никакого ответа. I wrote to you expressing our iterest in but heard no more.
-Мы не удовлетворены предложенными Вами условиями. We are not happy about the terms you suggested.
-Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну. This activity is hampered by limited availability of our production in your country.
-Я просто не могу понять, почему Вы не предупредили нас  I simply cannot understand why you did not tell us
-Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию. I am very disappointed about this fact, and hope that you can help me to clear out this very strange situation.
-Настоящим письмом я заявляю категорический протест против  By this letter I emphatically protest against..
-Это, полагаю Вы согласитесь, не лучший способ вести дела. This is, I am sure you will agree, not a good way to conduct business.
-Я боюсь, мы должны расторгнуть договор, поскольку  I am afraid that we must cancel the agreement as
-Мы категорически запрещаем Вам  We emphatically deny you permission to
-;
-Это вызывает цепь определенных затруднений. This sets up a chain involving several complications.
-Я очень обеспокоен тем, что Вы не сможете  I am most disturbed that you will not be able to
-Я писал Вам, выражая наш интерес в < >, но не получил никакого ответа. I wrote to you expressing our iterest in but heard no more.
-Мы не удовлетворены предложенными Вами условиями. We are not happy about the terms you suggested.
-Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну. This activity is hampered by limited availability of our production in your country.
-Я просто не могу понять, почему Вы не предупредили нас  I simply cannot understand why you did not tell us
-Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию. I am very disappointed about this fact, and hope that you can help me to clear out this very strange situation.
-Настоящим письмом я заявляю категорический протест против  By this letter I emphatically protest against..
-Это, полагаю Вы согласитесь, не лучший способ вести дела. This is, I am sure you will agree, not a good way to conduct business.
-Я боюсь, мы должны расторгнуть договор, поскольку  I am afraid that we must cancel the agreement as
-Мы категорически запрещаем Вам  We emphatically deny you permission to
+Это вызывает цепь определенных затруднений.
+Я очень обеспокоен тем, что Вы не сможете
+Я писал Вам, выражая наш интерес в, но не получил никакого ответа.
+Мы не удовлетворены предложенными Вами условиями.
+Этой деятельности препятствует ограниченный доступ нашей продукции в Вашу страну.
+Я просто не могу понять, почему Вы не предупредили нас
+Я очень огорчен данным обстоятельством и надеюсь, что Вы объясните мне эту весьма странную ситуацию.
+Настоящим письмом я заявляю категорический протест против
+Это, полагаю Вы согласитесь, не лучший способ вести дела.
+Я боюсь, мы должны расторгнуть договор, поскольку
+Мы категорически запрещаем Вам
 ;

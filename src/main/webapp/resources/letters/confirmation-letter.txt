@@ -13,27 +13,24 @@ additional-tags = not-require-answer, ordinary, single-aspect, unregulated, elec
 01.07.2019 года от вас пришло письмо с предложением о совместной работе над проектом «1С-Т». Мы его рассмотрели и подтверждаем свое согласие на сотрудничество.
 Ждем от вас договор. Все вопросы, связанные с практическим решением текущих вопросов можно решить по телефону 8 (574) 564-93-29.
 ;
-We have received your letter of Мы получили Ваше письмо от
-We thank you for your letter of Благодарим Вас за Ваше письмо от
+Мы получили Ваше письмо от
+Благодарим Вас за Ваше письмо от
 ;
-We have received your letter of Мы получили Ваше письмо от
-We thank you for your letter of Благодарим Вас за Ваше письмо от
+Мы получили Ваше письмо от
+Благодарим Вас за Ваше письмо от
 ;
-We have received your letter of Мы получили Ваше письмо от
-We thank you for your letter of Благодарим Вас за Ваше письмо от
+Мы получили Ваше письмо от
+Благодарим Вас за Ваше письмо от
 ;
-We have received your letter of Мы получили Ваше письмо от
-We thank you for your letter of Благодарим Вас за Ваше письмо от
+Мы получили Ваше письмо от
+Благодарим Вас за Ваше письмо от
 ;
-We have received your letter of Мы получили Ваше письмо от
-We thank you for your letter of Благодарим Вас за Ваше письмо от
+Мы получили Ваше письмо от
+Благодарим Вас за Ваше письмо от
 ;
-We have received your letter of Мы получили Ваше письмо от
-We thank you for your letter of Благодарим Вас за Ваше письмо от
+Мы получили Ваше письмо от
+Благодарим Вас за Ваше письмо от
 ;
-We have received your letter of Мы получили Ваше письмо от
-We thank you for your letter of Благодарим Вас за Ваше письмо от
-;
-We have received your letter of Мы получили Ваше письмо от
-We thank you for your letter of Благодарим Вас за Ваше письмо от
+Мы получили Ваше письмо от
+Благодарим Вас за Ваше письмо от
 ;

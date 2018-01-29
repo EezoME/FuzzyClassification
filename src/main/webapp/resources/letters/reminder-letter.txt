@@ -52,273 +52,93 @@ additional-tags = not-require-answer, ordinary, single-aspect, unregulated, elec
 Требуем от Вас
 Мы настаиваем
 ;
-Я был бы рад узнать I would be glad to know 
-Будьте добры, сообщите, пожалуйста Could you please tell me
-Пожалуйста сообщите, если Please let me know if
-Не будете ли Вы так любезны сообщить мне Would you be kind enough to let me know
-Не сочтете ли возможным сообщить мне Would it be possible for you to tell me
-Могу я надеяться на? May I hope for?
-Мы полагаем, что Вы сообщите нам как можно скорее We suggest you let us know as soon as possible
-Мы будем очень рады, если Вы сможете известить нас We would be very much obliged if you could inform us
-Я был бы весьма благодарен Вам, если бы вы сообщили, что и когда I would be grateful if you could let me know what and inform me when
-Мы были крайне благодарны Вам, если бы вы кратко пояснили нам We would be very much obliged if you could give us a short explanation
-Будьте добры, сообщите как можно скорее, желаете ли Вы Would you please let me know as soon as possible whether you would be willing to
-Не будете ли Вы столь любезны объяснить нам, как обстоят дела с Would you please be kind enough to let us know how things stand with
-Если у Вас есть какие-либо объяснения, касающиеся <>, мы с удовольствием выслушаем их Should you have any comments regarding <> we would very much appreciate hearing from you.
-Я был бы очень Вам признателен, если бы вы могли дать мне следующую информацию. I should be very much obliged if you could let me have the following information.
-Хотелось бы знать, не сможете ли Вы мне дать информацию I wonder if you could give me some information
-Возможно Вы будете настолько добры и вышлете мне все подробности относительно Perhaps you would be good enough to send me full details of
-Будем рады, если Вы напишете нам о том, что касается We would be pleased to hear from you concerning
-Мы надеемся, что Вы напишете нам относительно ваших интересов в We hope that you will write to us concerning your interest in
-Хотелось бы знать, есть ли у Вас хоть какая-нибудь возможность снабдить нас I wonder if there is any chance that you could supply us with
-Пишу для того, чтобы спросить, может ли Вас заинтересовать покупка I am writing to ask whether you might be interested in buying
-Я был бы благодарен, если бы Вы сообщили мне как можно скорее даты I would be grateful if you could tell me as soon as possible the dates of
-Будем признательны, если Вы сообщите нам, заинтересованы ли Вы по-прежнему в I should be grateful if you would let me know whether or not you are still interested in…
-Можно ли что-нибудь предпринять по этому поводу? Is there anything that can be done about this?
-Для нас важно получить информацию о том, как наша продукция встречена рынком. It is important to us to receive information on how our production are received in trade.
-Мы весьма заинтересованы узнать Ваши комментарии по поводу этого проекта, и намерены ли вы начать его осуществление. We would be interested to hear your further comments on this project and whether you intend to go ahead with it.
-Привлекает ли вас эта идея? Does the idea appeal to you?
-Был бы рад, если бы Вы прислали мне Ваш новый каталог I should be glad if you would send me your new catalogue of
-После моего разговора с Вашим представителем Following my conversation with your representative
-Был бы признателен, если бы Вы прислали мне с обратной почтой Ваш каталог и прейскурант I should be grateful if you would send me by return your catalogue and price-list of
-Если Вы можете гарантировать немедленную доставку и назначить действительно конкурентоспособные цены, мы бы могли поместить заказ у Вашей фирмы. If you can guarantee prompt delivery and can guote really competitive prices we may be able to place an order with you.
-Просим Вас приложить к Вашему ответу листовки с описанием и указать, какую скидку Вы предоставляете в зависимости от заказанного количества. Please enclose descriptive leaf lets with your reply, and state what discount you allow for quantities.
-Просим выслать нам предложение, назначив наиболее выгодные условия и скидку за платеж наличными. Please send us an offer quoting your best terms and discount for cash payment.
-Просим собщить нам, сможете ли Вы поставить Please let us know wether you can supply
-Вашу фирму рекомендовала нам фирма, с которой нас связывают деловые отношения более 10 лет. Your firm has been recommended to us by Messrs, with whom we have done business for over 10 years.
-Мы интересуемся, который Вы рекламируете, и будем рады, если Вы пришлете нам подробную информацию. We are interested inwhich you advertise and should be glad if you would send us full particulars.
-Поскольку мы готовы расплатиться наличными, мы надеемся, что Вы назначите самые благоприятные цены для заказов на массовую закупку. As we are prepared to pay cash we trust that you will guote favourable prices for bulk orders.
-Будем признательны за любую помощь, которую Вы можете оказать нам в этом деле. We shall be very grateful for any assistance you can give us in this matter.
-Ссылаясь на Ваше объявление в , я был бы рад получить With reference to your advertisement in  l should be pleased to receive
-Мы видели Вашу на выставке очень заинтересовались этой моделью. Мы бы хотели найти рынки сбыта для нее в если Вы готовы назначить нас там своими единственными представителями. We have seen your  at the exhibition and are very much interested in this model. We should like to market it in if you are prepared to give us the sole agency there.
-В течение многих лет мы импортировали из We have for many years been importers of from
-Будем признательны за скорейший ответ. We should be grateful for an early reply.
-Мы прилагаем образец и будем признательны, если Вы пришлете нам образцы We enclose a pattern of and we should be obliged if you would send us samples of
-Поскольку вопрос безотлагателен, посим Вас дать ответ с обратной почтой. As the matter is urgent will you please let us have a reply by return.
-Нам потребуется поставка не позже, чем через 4 недели с момента заказа. We should require delivery within 4 weeks of placing the order.
+Я был бы рад узнать
+Будьте добры, сообщите, пожалуйста
+Пожалуйста сообщите, если
+Не будете ли Вы так любезны сообщить мне
+Не сочтете ли возможным сообщить мне
+Могу я надеяться на?
+Мы полагаем, что Вы сообщите нам как можно скорее
+Мы будем очень рады, если Вы сможете известить нас
+Я был бы весьма благодарен Вам, если бы вы сообщили, что и когда
+Мы были крайне благодарны Вам, если бы вы кратко пояснили нам
+Будьте добры, сообщите как можно скорее, желаете ли Вы
+Не будете ли Вы столь любезны объяснить нам, как обстоят дела
+Если у Вас есть какие-либо объяснения, касающиеся <>, мы с удовольствием выслушаем их
+Я был бы очень Вам признателен, если бы вы могли дать мне следующую информацию.
+Хотелось бы знать, не сможете ли Вы мне дать информацию
+Возможно Вы будете настолько добры и вышлете мне все подробности относительно
+Будем рады, если Вы напишете нам о том, что касается
+Мы надеемся, что Вы напишете нам относительно ваших интересов в
+Хотелось бы знать, есть ли у Вас хоть какая-нибудь возможность снабдить нас
+Пишу для того, чтобы спросить, может ли Вас заинтересовать покупка
+Я был бы благодарен, если бы Вы сообщили мне как можно скорее даты
+Будем признательны, если Вы сообщите нам, заинтересованы ли Вы по-прежнему в
+Можно ли что-нибудь предпринять по этому поводу?
+Для нас важно получить информацию о том, как наша продукция встречена рынком.
+Мы весьма заинтересованы узнать Ваши комментарии по поводу этого проекта, и намерены ли вы начать его осуществление.
+Привлекает ли вас эта идея?
+Был бы рад, если бы Вы прислали мне Ваш новый каталог
+После моего разговора с Вашим представителем
+Был бы признателен, если бы Вы прислали мне с обратной почтой Ваш каталог и прейскурант
+Если Вы можете гарантировать немедленную доставку и назначить действительно конкурентоспособные цены, мы бы могли поместить заказ у Вашей фирмы.
+Просим Вас приложить к Вашему ответу листовки с описанием и указать, какую скидку Вы предоставляете в зависимости от заказанного количества.
+Просим выслать нам предложение, назначив наиболее выгодные условия и скидку за платеж наличными.
+Просим собщить нам, сможете ли Вы поставить
+Вашу фирму рекомендовала нам фирма, с которой нас связывают деловые отношения более 10 лет.
+Мы интересуемся, который Вы рекламируете, и будем рады, если Вы пришлете нам подробную информацию.
+Поскольку мы готовы расплатиться наличными, мы надеемся, что Вы назначите самые благоприятные цены для заказов на массовую закупку.
+Будем признательны за любую помощь, которую Вы можете оказать нам в этом деле.
+Ссылаясь на Ваше объявление в , я был бы рад получить
+Мы видели Вашу на выставке очень заинтересовались этой моделью. Мы бы хотели найти рынки сбыта для нее в если Вы готовы назначить нас там своими единственными представителями.
+В течение многих лет мы импортировали из
+Будем признательны за скорейший ответ.
+Мы прилагаем образец и будем признательны, если Вы пришлете нам образцы
+Поскольку вопрос безотлагателен, посим Вас дать ответ с обратной почтой.
+Нам потребуется поставка не позже, чем через 4 недели с момента заказа.
 ;
-Я был бы рад узнать I would be glad to know
-Будьте добры, сообщите, пожалуйста Could you please tell me
-Пожалуйста сообщите, если Please let me know if
-Не будете ли Вы так любезны сообщить мне Would you be kind enough to let me know
-Не сочтете ли возможным сообщить мне Would it be possible for you to tell me
-Могу я надеяться на? May I hope for?
-Мы полагаем, что Вы сообщите нам как можно скорее We suggest you let us know as soon as possible
-Мы будем очень рады, если Вы сможете известить нас We would be very much obliged if you could inform us
-Я был бы весьма благодарен Вам, если бы вы сообщили, что и когда I would be grateful if you could let me know what and inform me when
-Мы были крайне благодарны Вам, если бы вы кратко пояснили нам We would be very much obliged if you could give us a short explanation
-Будьте добры, сообщите как можно скорее, желаете ли Вы Would you please let me know as soon as possible whether you would be willing to
-Не будете ли Вы столь любезны объяснить нам, как обстоят дела с Would you please be kind enough to let us know how things stand with
-Если у Вас есть какие-либо объяснения, касающиеся <>, мы с удовольствием выслушаем их Should you have any comments regarding <> we would very much appreciate hearing from you.
-Я был бы очень Вам признателен, если бы вы могли дать мне следующую информацию. I should be very much obliged if you could let me have the following information.
-Хотелось бы знать, не сможете ли Вы мне дать информацию I wonder if you could give me some information
-Возможно Вы будете настолько добры и вышлете мне все подробности относительно Perhaps you would be good enough to send me full details of
-Будем рады, если Вы напишете нам о том, что касается We would be pleased to hear from you concerning
-Мы надеемся, что Вы напишете нам относительно ваших интересов в We hope that you will write to us concerning your interest in
-Хотелось бы знать, есть ли у Вас хоть какая-нибудь возможность снабдить нас I wonder if there is any chance that you could supply us with
-Пишу для того, чтобы спросить, может ли Вас заинтересовать покупка I am writing to ask whether you might be interested in buying
-Я был бы благодарен, если бы Вы сообщили мне как можно скорее даты I would be grateful if you could tell me as soon as possible the dates of
-Будем признательны, если Вы сообщите нам, заинтересованы ли Вы по-прежнему в I should be grateful if you would let me know whether or not you are still interested in…
-Можно ли что-нибудь предпринять по этому поводу? Is there anything that can be done about this?
-Для нас важно получить информацию о том, как наша продукция встречена рынком. It is important to us to receive information on how our production are received in trade.
-Мы весьма заинтересованы узнать Ваши комментарии по поводу этого проекта, и намерены ли вы начать его осуществление. We would be interested to hear your further comments on this project and whether you intend to go ahead with it.
-Привлекает ли вас эта идея? Does the idea appeal to you?
-Был бы рад, если бы Вы прислали мне Ваш новый каталог I should be glad if you would send me your new catalogue of
-После моего разговора с Вашим представителем Following my conversation with your representative
-Был бы признателен, если бы Вы прислали мне с обратной почтой Ваш каталог и прейскурант I should be grateful if you would send me by return your catalogue and price-list of
-Если Вы можете гарантировать немедленную доставку и назначить действительно конкурентоспособные цены, мы бы могли поместить заказ у Вашей фирмы. If you can guarantee prompt delivery and can guote really competitive prices we may be able to place an order with you.
-Просим Вас приложить к Вашему ответу листовки с описанием и указать, какую скидку Вы предоставляете в зависимости от заказанного количества. Please enclose descriptive leaf lets with your reply, and state what discount you allow for quantities.
-Просим выслать нам предложение, назначив наиболее выгодные условия и скидку за платеж наличными. Please send us an offer quoting your best terms and discount for cash payment.
-Просим собщить нам, сможете ли Вы поставить Please let us know wether you can supply
-Вашу фирму рекомендовала нам фирма, с которой нас связывают деловые отношения более 10 лет. Your firm has been recommended to us by Messrs, with whom we have done business for over 10 years.
-Мы интересуемся, который Вы рекламируете, и будем рады, если Вы пришлете нам подробную информацию. We are interested inwhich you advertise and should be glad if you would send us full particulars.
-Поскольку мы готовы расплатиться наличными, мы надеемся, что Вы назначите самые благоприятные цены для заказов на массовую закупку. As we are prepared to pay cash we trust that you will guote favourable prices for bulk orders.
-Будем признательны за любую помощь, которую Вы можете оказать нам в этом деле. We shall be very grateful for any assistance you can give us in this matter.
-Ссылаясь на Ваше объявление в , я был бы рад получить With reference to your advertisement in  l should be pleased to receive
-Мы видели Вашу на выставке очень заинтересовались этой моделью. Мы бы хотели найти рынки сбыта для нее в если Вы готовы назначить нас там своими единственными представителями. We have seen your  at the exhibition and are very much interested in this model. We should like to market it in if you are prepared to give us the sole agency there.
-В течение многих лет мы импортировали из We have for many years been importers of from
-Будем признательны за скорейший ответ. We should be grateful for an early reply.
-Мы прилагаем образец и будем признательны, если Вы пришлете нам образцы We enclose a pattern of and we should be obliged if you would send us samples of
-Поскольку вопрос безотлагателен, посим Вас дать ответ с обратной почтой. As the matter is urgent will you please let us have a reply by return.
-Нам потребуется поставка не позже, чем через 4 недели с момента заказа. We should require delivery within 4 weeks of placing the order.
-;
-Я был бы рад узнать I would be glad to know
-Будьте добры, сообщите, пожалуйста Could you please tell me
-Пожалуйста сообщите, если Please let me know if
-Не будете ли Вы так любезны сообщить мне Would you be kind enough to let me know
-Не сочтете ли возможным сообщить мне Would it be possible for you to tell me
-Могу я надеяться на? May I hope for?
-Мы полагаем, что Вы сообщите нам как можно скорее We suggest you let us know as soon as possible
-Мы будем очень рады, если Вы сможете известить нас We would be very much obliged if you could inform us
-Я был бы весьма благодарен Вам, если бы вы сообщили, что и когда I would be grateful if you could let me know what and inform me when
-Мы были крайне благодарны Вам, если бы вы кратко пояснили нам We would be very much obliged if you could give us a short explanation
-Будьте добры, сообщите как можно скорее, желаете ли Вы Would you please let me know as soon as possible whether you would be willing to
-Не будете ли Вы столь любезны объяснить нам, как обстоят дела с Would you please be kind enough to let us know how things stand with
-Если у Вас есть какие-либо объяснения, касающиеся <>, мы с удовольствием выслушаем их Should you have any comments regarding <> we would very much appreciate hearing from you.
-Я был бы очень Вам признателен, если бы вы могли дать мне следующую информацию. I should be very much obliged if you could let me have the following information.
-Хотелось бы знать, не сможете ли Вы мне дать информацию I wonder if you could give me some information
-Возможно Вы будете настолько добры и вышлете мне все подробности относительно Perhaps you would be good enough to send me full details of
-Будем рады, если Вы напишете нам о том, что касается We would be pleased to hear from you concerning
-Мы надеемся, что Вы напишете нам относительно ваших интересов в We hope that you will write to us concerning your interest in
-Хотелось бы знать, есть ли у Вас хоть какая-нибудь возможность снабдить нас I wonder if there is any chance that you could supply us with
-Пишу для того, чтобы спросить, может ли Вас заинтересовать покупка I am writing to ask whether you might be interested in buying
-Я был бы благодарен, если бы Вы сообщили мне как можно скорее даты I would be grateful if you could tell me as soon as possible the dates of
-Будем признательны, если Вы сообщите нам, заинтересованы ли Вы по-прежнему в I should be grateful if you would let me know whether or not you are still interested in…
-Можно ли что-нибудь предпринять по этому поводу? Is there anything that can be done about this?
-Для нас важно получить информацию о том, как наша продукция встречена рынком. It is important to us to receive information on how our production are received in trade.
-Мы весьма заинтересованы узнать Ваши комментарии по поводу этого проекта, и намерены ли вы начать его осуществление. We would be interested to hear your further comments on this project and whether you intend to go ahead with it.
-Привлекает ли вас эта идея? Does the idea appeal to you?
-Был бы рад, если бы Вы прислали мне Ваш новый каталог I should be glad if you would send me your new catalogue of
-После моего разговора с Вашим представителем Following my conversation with your representative
-Был бы признателен, если бы Вы прислали мне с обратной почтой Ваш каталог и прейскурант I should be grateful if you would send me by return your catalogue and price-list of
-Если Вы можете гарантировать немедленную доставку и назначить действительно конкурентоспособные цены, мы бы могли поместить заказ у Вашей фирмы. If you can guarantee prompt delivery and can guote really competitive prices we may be able to place an order with you.
-Просим Вас приложить к Вашему ответу листовки с описанием и указать, какую скидку Вы предоставляете в зависимости от заказанного количества. Please enclose descriptive leaf lets with your reply, and state what discount you allow for quantities.
-Просим выслать нам предложение, назначив наиболее выгодные условия и скидку за платеж наличными. Please send us an offer quoting your best terms and discount for cash payment.
-Просим собщить нам, сможете ли Вы поставить Please let us know wether you can supply
-Вашу фирму рекомендовала нам фирма, с которой нас связывают деловые отношения более 10 лет. Your firm has been recommended to us by Messrs, with whom we have done business for over 10 years.
-Мы интересуемся, который Вы рекламируете, и будем рады, если Вы пришлете нам подробную информацию. We are interested inwhich you advertise and should be glad if you would send us full particulars.
-Поскольку мы готовы расплатиться наличными, мы надеемся, что Вы назначите самые благоприятные цены для заказов на массовую закупку. As we are prepared to pay cash we trust that you will guote favourable prices for bulk orders.
-Будем признательны за любую помощь, которую Вы можете оказать нам в этом деле. We shall be very grateful for any assistance you can give us in this matter.
-Ссылаясь на Ваше объявление в , я был бы рад получить With reference to your advertisement in  l should be pleased to receive
-Мы видели Вашу на выставке очень заинтересовались этой моделью. Мы бы хотели найти рынки сбыта для нее в если Вы готовы назначить нас там своими единственными представителями. We have seen your  at the exhibition and are very much interested in this model. We should like to market it in if you are prepared to give us the sole agency there.
-В течение многих лет мы импортировали из We have for many years been importers of from
-Будем признательны за скорейший ответ. We should be grateful for an early reply.
-Мы прилагаем образец и будем признательны, если Вы пришлете нам образцы We enclose a pattern of and we should be obliged if you would send us samples of
-Поскольку вопрос безотлагателен, посим Вас дать ответ с обратной почтой. As the matter is urgent will you please let us have a reply by return.
-Нам потребуется поставка не позже, чем через 4 недели с момента заказа. We should require delivery within 4 weeks of placing the order.
-;
-Я был бы рад узнать I would be glad to know
-Будьте добры, сообщите, пожалуйста Could you please tell me
-Пожалуйста сообщите, если Please let me know if
-Не будете ли Вы так любезны сообщить мне Would you be kind enough to let me know
-Не сочтете ли возможным сообщить мне Would it be possible for you to tell me
-Могу я надеяться на? May I hope for?
-Мы полагаем, что Вы сообщите нам как можно скорее We suggest you let us know as soon as possible
-Мы будем очень рады, если Вы сможете известить нас We would be very much obliged if you could inform us
-Я был бы весьма благодарен Вам, если бы вы сообщили, что и когда I would be grateful if you could let me know what and inform me when
-Мы были крайне благодарны Вам, если бы вы кратко пояснили нам We would be very much obliged if you could give us a short explanation
-Будьте добры, сообщите как можно скорее, желаете ли Вы Would you please let me know as soon as possible whether you would be willing to
-Не будете ли Вы столь любезны объяснить нам, как обстоят дела с Would you please be kind enough to let us know how things stand with
-Если у Вас есть какие-либо объяснения, касающиеся <>, мы с удовольствием выслушаем их Should you have any comments regarding <> we would very much appreciate hearing from you.
-Я был бы очень Вам признателен, если бы вы могли дать мне следующую информацию. I should be very much obliged if you could let me have the following information.
-Хотелось бы знать, не сможете ли Вы мне дать информацию I wonder if you could give me some information
-Возможно Вы будете настолько добры и вышлете мне все подробности относительно Perhaps you would be good enough to send me full details of
-Будем рады, если Вы напишете нам о том, что касается We would be pleased to hear from you concerning
-Мы надеемся, что Вы напишете нам относительно ваших интересов в We hope that you will write to us concerning your interest in
-Хотелось бы знать, есть ли у Вас хоть какая-нибудь возможность снабдить нас I wonder if there is any chance that you could supply us with
-Пишу для того, чтобы спросить, может ли Вас заинтересовать покупка I am writing to ask whether you might be interested in buying
-Я был бы благодарен, если бы Вы сообщили мне как можно скорее даты I would be grateful if you could tell me as soon as possible the dates of
-Будем признательны, если Вы сообщите нам, заинтересованы ли Вы по-прежнему в I should be grateful if you would let me know whether or not you are still interested in…
-Можно ли что-нибудь предпринять по этому поводу? Is there anything that can be done about this?
-Для нас важно получить информацию о том, как наша продукция встречена рынком. It is important to us to receive information on how our production are received in trade.
-Мы весьма заинтересованы узнать Ваши комментарии по поводу этого проекта, и намерены ли вы начать его осуществление. We would be interested to hear your further comments on this project and whether you intend to go ahead with it.
-Привлекает ли вас эта идея? Does the idea appeal to you?
-Был бы рад, если бы Вы прислали мне Ваш новый каталог I should be glad if you would send me your new catalogue of
-После моего разговора с Вашим представителем Following my conversation with your representative
-Был бы признателен, если бы Вы прислали мне с обратной почтой Ваш каталог и прейскурант I should be grateful if you would send me by return your catalogue and price-list of
-Если Вы можете гарантировать немедленную доставку и назначить действительно конкурентоспособные цены, мы бы могли поместить заказ у Вашей фирмы. If you can guarantee prompt delivery and can guote really competitive prices we may be able to place an order with you.
-Просим Вас приложить к Вашему ответу листовки с описанием и указать, какую скидку Вы предоставляете в зависимости от заказанного количества. Please enclose descriptive leaf lets with your reply, and state what discount you allow for quantities.
-Просим выслать нам предложение, назначив наиболее выгодные условия и скидку за платеж наличными. Please send us an offer quoting your best terms and discount for cash payment.
-Просим собщить нам, сможете ли Вы поставить Please let us know wether you can supply
-Вашу фирму рекомендовала нам фирма, с которой нас связывают деловые отношения более 10 лет. Your firm has been recommended to us by Messrs, with whom we have done business for over 10 years.
-Мы интересуемся, который Вы рекламируете, и будем рады, если Вы пришлете нам подробную информацию. We are interested inwhich you advertise and should be glad if you would send us full particulars.
-Поскольку мы готовы расплатиться наличными, мы надеемся, что Вы назначите самые благоприятные цены для заказов на массовую закупку. As we are prepared to pay cash we trust that you will guote favourable prices for bulk orders.
-Будем признательны за любую помощь, которую Вы можете оказать нам в этом деле. We shall be very grateful for any assistance you can give us in this matter.
-Ссылаясь на Ваше объявление в , я был бы рад получить With reference to your advertisement in  l should be pleased to receive
-Мы видели Вашу на выставке очень заинтересовались этой моделью. Мы бы хотели найти рынки сбыта для нее в если Вы готовы назначить нас там своими единственными представителями. We have seen your  at the exhibition and are very much interested in this model. We should like to market it in if you are prepared to give us the sole agency there.
-В течение многих лет мы импортировали из We have for many years been importers of from
-Будем признательны за скорейший ответ. We should be grateful for an early reply.
-Мы прилагаем образец и будем признательны, если Вы пришлете нам образцы We enclose a pattern of and we should be obliged if you would send us samples of
-Поскольку вопрос безотлагателен, посим Вас дать ответ с обратной почтой. As the matter is urgent will you please let us have a reply by return.
-Нам потребуется поставка не позже, чем через 4 недели с момента заказа. We should require delivery within 4 weeks of placing the order.
-;
-Я был бы рад узнать I would be glad to know
-Будьте добры, сообщите, пожалуйста Could you please tell me
-Пожалуйста сообщите, если Please let me know if
-Не будете ли Вы так любезны сообщить мне Would you be kind enough to let me know
-Не сочтете ли возможным сообщить мне Would it be possible for you to tell me
-Могу я надеяться на? May I hope for?
-Мы полагаем, что Вы сообщите нам как можно скорее We suggest you let us know as soon as possible
-Мы будем очень рады, если Вы сможете известить нас We would be very much obliged if you could inform us
-Я был бы весьма благодарен Вам, если бы вы сообщили, что и когда I would be grateful if you could let me know what and inform me when
-Мы были крайне благодарны Вам, если бы вы кратко пояснили нам We would be very much obliged if you could give us a short explanation
-Будьте добры, сообщите как можно скорее, желаете ли Вы Would you please let me know as soon as possible whether you would be willing to
-Не будете ли Вы столь любезны объяснить нам, как обстоят дела с Would you please be kind enough to let us know how things stand with
-Если у Вас есть какие-либо объяснения, касающиеся <>, мы с удовольствием выслушаем их Should you have any comments regarding <> we would very much appreciate hearing from you.
-Я был бы очень Вам признателен, если бы вы могли дать мне следующую информацию. I should be very much obliged if you could let me have the following information.
-Хотелось бы знать, не сможете ли Вы мне дать информацию I wonder if you could give me some information
-Возможно Вы будете настолько добры и вышлете мне все подробности относительно Perhaps you would be good enough to send me full details of
-Будем рады, если Вы напишете нам о том, что касается We would be pleased to hear from you concerning
-Мы надеемся, что Вы напишете нам относительно ваших интересов в We hope that you will write to us concerning your interest in
-Хотелось бы знать, есть ли у Вас хоть какая-нибудь возможность снабдить нас I wonder if there is any chance that you could supply us with
-Пишу для того, чтобы спросить, может ли Вас заинтересовать покупка I am writing to ask whether you might be interested in buying
-Я был бы благодарен, если бы Вы сообщили мне как можно скорее даты I would be grateful if you could tell me as soon as possible the dates of
-Будем признательны, если Вы сообщите нам, заинтересованы ли Вы по-прежнему в I should be grateful if you would let me know whether or not you are still interested in…
-Можно ли что-нибудь предпринять по этому поводу? Is there anything that can be done about this?
-Для нас важно получить информацию о том, как наша продукция встречена рынком. It is important to us to receive information on how our production are received in trade.
-Мы весьма заинтересованы узнать Ваши комментарии по поводу этого проекта, и намерены ли вы начать его осуществление. We would be interested to hear your further comments on this project and whether you intend to go ahead with it.
-Привлекает ли вас эта идея? Does the idea appeal to you?
-Был бы рад, если бы Вы прислали мне Ваш новый каталог I should be glad if you would send me your new catalogue of
-После моего разговора с Вашим представителем Following my conversation with your representative
-Был бы признателен, если бы Вы прислали мне с обратной почтой Ваш каталог и прейскурант I should be grateful if you would send me by return your catalogue and price-list of
-Если Вы можете гарантировать немедленную доставку и назначить действительно конкурентоспособные цены, мы бы могли поместить заказ у Вашей фирмы. If you can guarantee prompt delivery and can guote really competitive prices we may be able to place an order with you.
-Просим Вас приложить к Вашему ответу листовки с описанием и указать, какую скидку Вы предоставляете в зависимости от заказанного количества. Please enclose descriptive leaf lets with your reply, and state what discount you allow for quantities.
-Просим выслать нам предложение, назначив наиболее выгодные условия и скидку за платеж наличными. Please send us an offer quoting your best terms and discount for cash payment.
-Просим собщить нам, сможете ли Вы поставить Please let us know wether you can supply
-Вашу фирму рекомендовала нам фирма, с которой нас связывают деловые отношения более 10 лет. Your firm has been recommended to us by Messrs, with whom we have done business for over 10 years.
-Мы интересуемся, который Вы рекламируете, и будем рады, если Вы пришлете нам подробную информацию. We are interested inwhich you advertise and should be glad if you would send us full particulars.
-Поскольку мы готовы расплатиться наличными, мы надеемся, что Вы назначите самые благоприятные цены для заказов на массовую закупку. As we are prepared to pay cash we trust that you will guote favourable prices for bulk orders.
-Будем признательны за любую помощь, которую Вы можете оказать нам в этом деле. We shall be very grateful for any assistance you can give us in this matter.
-Ссылаясь на Ваше объявление в , я был бы рад получить With reference to your advertisement in  l should be pleased to receive
-Мы видели Вашу на выставке очень заинтересовались этой моделью. Мы бы хотели найти рынки сбыта для нее в если Вы готовы назначить нас там своими единственными представителями. We have seen your  at the exhibition and are very much interested in this model. We should like to market it in if you are prepared to give us the sole agency there.
-В течение многих лет мы импортировали из We have for many years been importers of from
-Будем признательны за скорейший ответ. We should be grateful for an early reply.
-Мы прилагаем образец и будем признательны, если Вы пришлете нам образцы We enclose a pattern of and we should be obliged if you would send us samples of
-Поскольку вопрос безотлагателен, посим Вас дать ответ с обратной почтой. As the matter is urgent will you please let us have a reply by return.
-Нам потребуется поставка не позже, чем через 4 недели с момента заказа. We should require delivery within 4 weeks of placing the order.
-;
-Я был бы рад узнать I would be glad to know
-Будьте добры, сообщите, пожалуйста Could you please tell me
-Пожалуйста сообщите, если Please let me know if
-Не будете ли Вы так любезны сообщить мне Would you be kind enough to let me know
-Не сочтете ли возможным сообщить мне Would it be possible for you to tell me
-Могу я надеяться на? May I hope for?
-Мы полагаем, что Вы сообщите нам как можно скорее We suggest you let us know as soon as possible
-Мы будем очень рады, если Вы сможете известить нас We would be very much obliged if you could inform us
-Я был бы весьма благодарен Вам, если бы вы сообщили, что и когда I would be grateful if you could let me know what and inform me when
-Мы были крайне благодарны Вам, если бы вы кратко пояснили нам We would be very much obliged if you could give us a short explanation
-Будьте добры, сообщите как можно скорее, желаете ли Вы Would you please let me know as soon as possible whether you would be willing to
-Не будете ли Вы столь любезны объяснить нам, как обстоят дела с Would you please be kind enough to let us know how things stand with
-Если у Вас есть какие-либо объяснения, касающиеся <>, мы с удовольствием выслушаем их Should you have any comments regarding <> we would very much appreciate hearing from you.
-Я был бы очень Вам признателен, если бы вы могли дать мне следующую информацию. I should be very much obliged if you could let me have the following information.
-Хотелось бы знать, не сможете ли Вы мне дать информацию I wonder if you could give me some information
-Возможно Вы будете настолько добры и вышлете мне все подробности относительно Perhaps you would be good enough to send me full details of
-Будем рады, если Вы напишете нам о том, что касается We would be pleased to hear from you concerning
-Мы надеемся, что Вы напишете нам относительно ваших интересов в We hope that you will write to us concerning your interest in
-Хотелось бы знать, есть ли у Вас хоть какая-нибудь возможность снабдить нас I wonder if there is any chance that you could supply us with
-Пишу для того, чтобы спросить, может ли Вас заинтересовать покупка I am writing to ask whether you might be interested in buying
-Я был бы благодарен, если бы Вы сообщили мне как можно скорее даты I would be grateful if you could tell me as soon as possible the dates of
-Будем признательны, если Вы сообщите нам, заинтересованы ли Вы по-прежнему в I should be grateful if you would let me know whether or not you are still interested in…
-Можно ли что-нибудь предпринять по этому поводу? Is there anything that can be done about this?
-Для нас важно получить информацию о том, как наша продукция встречена рынком. It is important to us to receive information on how our production are received in trade.
-Мы весьма заинтересованы узнать Ваши комментарии по поводу этого проекта, и намерены ли вы начать его осуществление. We would be interested to hear your further comments on this project and whether you intend to go ahead with it.
-Привлекает ли вас эта идея? Does the idea appeal to you?
-Был бы рад, если бы Вы прислали мне Ваш новый каталог I should be glad if you would send me your new catalogue of
-После моего разговора с Вашим представителем Following my conversation with your representative
-Был бы признателен, если бы Вы прислали мне с обратной почтой Ваш каталог и прейскурант I should be grateful if you would send me by return your catalogue and price-list of
-Если Вы можете гарантировать немедленную доставку и назначить действительно конкурентоспособные цены, мы бы могли поместить заказ у Вашей фирмы. If you can guarantee prompt delivery and can guote really competitive prices we may be able to place an order with you.
-Просим Вас приложить к Вашему ответу листовки с описанием и указать, какую скидку Вы предоставляете в зависимости от заказанного количества. Please enclose descriptive leaf lets with your reply, and state what discount you allow for quantities.
-Просим выслать нам предложение, назначив наиболее выгодные условия и скидку за платеж наличными. Please send us an offer quoting your best terms and discount for cash payment.
-Просим собщить нам, сможете ли Вы поставить Please let us know wether you can supply
-Вашу фирму рекомендовала нам фирма, с которой нас связывают деловые отношения более 10 лет. Your firm has been recommended to us by Messrs, with whom we have done business for over 10 years.
-Мы интересуемся, который Вы рекламируете, и будем рады, если Вы пришлете нам подробную информацию. We are interested inwhich you advertise and should be glad if you would send us full particulars.
-Поскольку мы готовы расплатиться наличными, мы надеемся, что Вы назначите самые благоприятные цены для заказов на массовую закупку. As we are prepared to pay cash we trust that you will guote favourable prices for bulk orders.
-Будем признательны за любую помощь, которую Вы можете оказать нам в этом деле. We shall be very grateful for any assistance you can give us in this matter.
-Ссылаясь на Ваше объявление в , я был бы рад получить With reference to your advertisement in  l should be pleased to receive
-Мы видели Вашу на выставке очень заинтересовались этой моделью. Мы бы хотели найти рынки сбыта для нее в если Вы готовы назначить нас там своими единственными представителями. We have seen your  at the exhibition and are very much interested in this model. We should like to market it in if you are prepared to give us the sole agency there.
-В течение многих лет мы импортировали из We have for many years been importers of from
-Будем признательны за скорейший ответ. We should be grateful for an early reply.
-Мы прилагаем образец и будем признательны, если Вы пришлете нам образцы We enclose a pattern of and we should be obliged if you would send us samples of
-Поскольку вопрос безотлагателен, посим Вас дать ответ с обратной почтой. As the matter is urgent will you please let us have a reply by return.
-Нам потребуется поставка не позже, чем через 4 недели с момента заказа. We should require delivery within 4 weeks of placing the order.
+Я был бы рад узнать
+Будьте добры, сообщите, пожалуйста
+Пожалуйста сообщите, если
+Не будете ли Вы так любезны сообщить мне
+Не сочтете ли возможным сообщить мне
+Могу я надеяться на?
+Мы полагаем, что Вы сообщите нам как можно скорее
+Мы будем очень рады, если Вы сможете известить нас
+Я был бы весьма благодарен Вам, если бы вы сообщили, что и когда
+Мы были крайне благодарны Вам, если бы вы кратко пояснили нам
+Будьте добры, сообщите как можно скорее, желаете ли Вы
+Не будете ли Вы столь любезны объяснить нам, как обстоят дела
+Если у Вас есть какие-либо объяснения, касающиеся <>, мы с удовольствием выслушаем их
+Я был бы очень Вам признателен, если бы вы могли дать мне следующую информацию.
+Хотелось бы знать, не сможете ли Вы мне дать информацию
+Возможно Вы будете настолько добры и вышлете мне все подробности относительно
+Будем рады, если Вы напишете нам о том, что касается
+Мы надеемся, что Вы напишете нам относительно ваших интересов в
+Хотелось бы знать, есть ли у Вас хоть какая-нибудь возможность снабдить нас
+Пишу для того, чтобы спросить, может ли Вас заинтересовать покупка
+Я был бы благодарен, если бы Вы сообщили мне как можно скорее даты
+Будем признательны, если Вы сообщите нам, заинтересованы ли Вы по-прежнему в
+Можно ли что-нибудь предпринять по этому поводу?
+Для нас важно получить информацию о том, как наша продукция встречена рынком.
+Мы весьма заинтересованы узнать Ваши комментарии по поводу этого проекта, и намерены ли вы начать его осуществление.
+Привлекает ли вас эта идея?
+Был бы рад, если бы Вы прислали мне Ваш новый каталог
+После моего разговора с Вашим представителем
+Был бы признателен, если бы Вы прислали мне с обратной почтой Ваш каталог и прейскурант
+Если Вы можете гарантировать немедленную доставку и назначить действительно конкурентоспособные цены, мы бы могли поместить заказ у Вашей фирмы.
+Просим Вас приложить к Вашему ответу листовки с описанием и указать, какую скидку Вы предоставляете в зависимости от заказанного количества.
+Просим выслать нам предложение, назначив наиболее выгодные условия и скидку за платеж наличными.
+Просим собщить нам, сможете ли Вы поставить
+Вашу фирму рекомендовала нам фирма, с которой нас связывают деловые отношения более 10 лет.
+Мы интересуемся, который Вы рекламируете, и будем рады, если Вы пришлете нам подробную информацию.
+Поскольку мы готовы расплатиться наличными, мы надеемся, что Вы назначите самые благоприятные цены для заказов на массовую закупку.
+Будем признательны за любую помощь, которую Вы можете оказать нам в этом деле.
+Ссылаясь на Ваше объявление в , я был бы рад получить
+Мы видели Вашу на выставке очень заинтересовались этой моделью. Мы бы хотели найти рынки сбыта для нее в если Вы готовы назначить нас там своими единственными представителями.
+В течение многих лет мы импортировали из
+Будем признательны за скорейший ответ.
+Мы прилагаем образец и будем признательны, если Вы пришлете нам образцы
+Поскольку вопрос безотлагателен, посим Вас дать ответ с обратной почтой.
+Нам потребуется поставка не позже, чем через 4 недели с момента заказа.
 ;

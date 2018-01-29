@@ -124,219 +124,147 @@ additional-tags = require-answer, ordinary, single-aspect, regulated, electronic
 Сообщаем Вам, что господин Лесков Н.С. прибудет в Москву 15 марта, любезно просим Вас организовать встречу и зарезервировать номер в гостинице на 2 дня. Господин Лесков Н.С. прибудет самолетом рейс 1583.
 Также мы были бы признательны, если бы Вы организовали для него встречу с Вашими клиентами  во время его визита.
 ;
-Мы будем рады We shall (should) be pleased
-Будьте добры Would (will) you kindly/please
-Мы были бы Вам обязаны, если Вы We should be obliged if you could (would)
-Мы были бы рады, если Вы We should be glad if you would
-Мы надеемся, что Вы We trust you will
-В связи со срочностью мы просим Вас In view of the urgency we ask you to
-Пожалуйста, сообщите Please let me know
-Просим не отказать в любезности выслать нам We kindly ask you to send us
-Просим выслать нам Please send us
-Просим заметить, что Please take notice that
-Просим Вас сообщить нам о Please inform us about
-Просим оплатить We request to pay
-Просим телеграфировать нам We ask you to wire us
-Мы хотим, чтобы вы выслали нам We would like you to send us
-В дополнение к моей телеграмме я прошу сообщить нам In addition to my cable I would ask you to inform us
-Пожалуйста, укажите Ваш почтовый индекс, номера телефона и телекса. Please indicate your post-code, telepone and telex number.
-Прошу принять все необходимые меры для Please take all necessary measures for
-Сделайте, пожалуйста, все возможное, чтобы привести это дело к скорому положительному финалу. Please do your best to bring this matter to a fast positive end.
-Вышлите нам, пожалуйста, срочно   в соответствии с нашим контрактом. Please send is urgently   in accordance with our contract.
-Хотелось бы знать, не можете ли Вы оказать мне любезность I wonder if you would do me a favour
-Мы будем благодарны, если Вы It will be appreciated if you will please
-Хотелось бы знать, не можете ли Вы мне помочь I wonder if you could help me to
-Мы будем благодарны Вам за сообщение Вашего решения относительно We will appreciate your informing us of your decision concerning
-Просим у Вас некоторую дополнительную информацию о We ask you for some additional information
-Будьте добры прислать мне Could you please send me
-Мы очень рассчитываем на Ваш ответ, чтобы иметь возможность We would very much appreciate hearing from you so that we may
-Я был бы очень благодарен, если бы Вы выслали мне согласно пункту 6 договора I would appreciate very much if you send me, according to clause 6 of the agreement
-Мы бы попросили обеспечить нас We would kindly request to pro- vide us with
-В соответствии с законом я прошу (требую) In accordance with law I request
-Я был бы весьма благодарен, если бы Вы могли I (we) would (should) be most (extremely) grateful if you could
-подтвердить, что confirm that
-прислать мне send me
-известить , что notify  that
-добавить некоторые данные о add some data about
-связаться со мной по поводу продажи   и покупки   correspond with me regarding the sale of   and purchase of  
+Мы будем рады
+Будьте добры
+Мы были бы Вам обязаны, если Вы
+Мы были бы рады, если Вы
+Мы надеемся, что Вы
+В связи со срочностью мы просим Вас
+Пожалуйста, сообщите
+Просим не отказать в любезности выслать нам
+Просим выслать нам
+Просим заметить, что
+Просим Вас сообщить нам о
+Просим оплатить
+Просим телеграфировать нам
+Мы хотим, чтобы вы выслали нам
+В дополнение к моей телеграмме я прошу сообщить нам
+Пожалуйста, укажите Ваш почтовый индекс, номера телефона и телекса.
+Прошу принять все необходимые меры для
+Сделайте, пожалуйста, все возможное, чтобы привести это дело к скорому положительному финалу.
+Вышлите нам, пожалуйста, срочно   в соответствии с нашим контрактом.
+Хотелось бы знать, не можете ли Вы оказать мне любезность
+Мы будем благодарны, если Вы
+Хотелось бы знать, не можете ли Вы мне помочь
+Мы будем благодарны Вам за сообщение Вашего решения относительно
+Просим у Вас некоторую дополнительную информацию о
+Будьте добры прислать мне
+Мы очень рассчитываем на Ваш ответ, чтобы иметь возможность
+Я был бы очень благодарен, если бы Вы выслали мне согласно пункту 6 договора
+Мы бы попросили обеспечить нас
+В соответствии с законом я прошу (требую)
+Я был бы весьма благодарен, если бы Вы могли
+подтвердить,
+прислать
+известить ,
+добавить некоторые данные о
+связаться со мной по поводу продажи и покупки
 ;
-Мы будем рады We shall (should) be pleased
-Будьте добры Would (will) you kindly/please
-Мы были бы Вам обязаны, если Вы We should be obliged if you could (would)
-Мы были бы рады, если Вы We should be glad if you would
-Мы надеемся, что Вы We trust you will
-В связи со срочностью мы просим Вас In view of the urgency we ask you to
-Пожалуйста, сообщите Please let me know
-Просим не отказать в любезности выслать нам We kindly ask you to send us
-Просим выслать нам Please send us
-Просим заметить, что Please take notice that
-Просим Вас сообщить нам о Please inform us about
-Просим оплатить We request to pay
-Просим телеграфировать нам We ask you to wire us
-Мы хотим, чтобы вы выслали нам We would like you to send us
-В дополнение к моей телеграмме я прошу сообщить нам In addition to my cable I would ask you to inform us
-Пожалуйста, укажите Ваш почтовый индекс, номера телефона и телекса. Please indicate your post-code, telepone and telex number.
-Прошу принять все необходимые меры для Please take all necessary measures for
-Сделайте, пожалуйста, все возможное, чтобы привести это дело к скорому положительному финалу. Please do your best to bring this matter to a fast positive end.
-Вышлите нам, пожалуйста, срочно   в соответствии с нашим контрактом. Please send is urgently   in accordance with our contract.
-Хотелось бы знать, не можете ли Вы оказать мне любезность I wonder if you would do me a favour
-Мы будем благодарны, если Вы It will be appreciated if you will please
-Хотелось бы знать, не можете ли Вы мне помочь I wonder if you could help me to
-Мы будем благодарны Вам за сообщение Вашего решения относительно We will appreciate your informing us of your decision concerning
-Просим у Вас некоторую дополнительную информацию о We ask you for some additional information
-Будьте добры прислать мне Could you please send me
-Мы очень рассчитываем на Ваш ответ, чтобы иметь возможность We would very much appreciate hearing from you so that we may
-Я был бы очень благодарен, если бы Вы выслали мне согласно пункту 6 договора I would appreciate very much if you send me, according to clause 6 of the agreement
-Мы бы попросили обеспечить нас We would kindly request to pro- vide us with
-В соответствии с законом я прошу (требую) In accordance with law I request
-Я был бы весьма благодарен, если бы Вы могли I (we) would (should) be most (extremely) grateful if you could
-подтвердить, что confirm that
-прислать мне send me
-известить , что notify  that
-добавить некоторые данные о add some data about
-связаться со мной по поводу продажи   и покупки   correspond with me regarding the sale of   and purchase of
+Мы будем рады
+Будьте добры
+Мы были бы Вам обязаны, если Вы
+Мы были бы рады, если Вы
+Мы надеемся, что Вы
+В связи со срочностью мы просим Вас
+Пожалуйста, сообщите
+Просим не отказать в любезности выслать нам
+Просим выслать нам
+Просим заметить, что
+Просим Вас сообщить нам о
+Просим оплатить
+Просим телеграфировать нам
+Мы хотим, чтобы вы выслали нам
+В дополнение к моей телеграмме я прошу сообщить нам
+Пожалуйста, укажите Ваш почтовый индекс, номера телефона и телекса.
+Прошу принять все необходимые меры для
+Сделайте, пожалуйста, все возможное, чтобы привести это дело к скорому положительному финалу.
+Вышлите нам, пожалуйста, срочно   в соответствии с нашим контрактом.
+Хотелось бы знать, не можете ли Вы оказать мне любезность
+Мы будем благодарны, если Вы
+Хотелось бы знать, не можете ли Вы мне помочь
+Мы будем благодарны Вам за сообщение Вашего решения относительно
+Просим у Вас некоторую дополнительную информацию о
+Будьте добры прислать мне
+Мы очень рассчитываем на Ваш ответ, чтобы иметь возможность
+Я был бы очень благодарен, если бы Вы выслали мне согласно пункту 6 договора
+Мы бы попросили обеспечить нас
+В соответствии с законом я прошу (требую)
+Я был бы весьма благодарен, если бы Вы могли
+подтвердить,
+прислать
+известить ,
+добавить некоторые данные о
+связаться со мной по поводу продажи и покупки
 ;
-Мы будем рады We shall (should) be pleased
-Будьте добры Would (will) you kindly/please
-Мы были бы Вам обязаны, если Вы We should be obliged if you could (would)
-Мы были бы рады, если Вы We should be glad if you would
-Мы надеемся, что Вы We trust you will
-В связи со срочностью мы просим Вас In view of the urgency we ask you to
-Пожалуйста, сообщите Please let me know
-Просим не отказать в любезности выслать нам We kindly ask you to send us
-Просим выслать нам Please send us
-Просим заметить, что Please take notice that
-Просим Вас сообщить нам о Please inform us about
-Просим оплатить We request to pay
-Просим телеграфировать нам We ask you to wire us
-Мы хотим, чтобы вы выслали нам We would like you to send us
-В дополнение к моей телеграмме я прошу сообщить нам In addition to my cable I would ask you to inform us
-Пожалуйста, укажите Ваш почтовый индекс, номера телефона и телекса. Please indicate your post-code, telepone and telex number.
-Прошу принять все необходимые меры для Please take all necessary measures for
-Сделайте, пожалуйста, все возможное, чтобы привести это дело к скорому положительному финалу. Please do your best to bring this matter to a fast positive end.
-Вышлите нам, пожалуйста, срочно   в соответствии с нашим контрактом. Please send is urgently   in accordance with our contract.
-Хотелось бы знать, не можете ли Вы оказать мне любезность I wonder if you would do me a favour
-Мы будем благодарны, если Вы It will be appreciated if you will please
-Хотелось бы знать, не можете ли Вы мне помочь I wonder if you could help me to
-Мы будем благодарны Вам за сообщение Вашего решения относительно We will appreciate your informing us of your decision concerning
-Просим у Вас некоторую дополнительную информацию о We ask you for some additional information
-Будьте добры прислать мне Could you please send me
-Мы очень рассчитываем на Ваш ответ, чтобы иметь возможность We would very much appreciate hearing from you so that we may
-Я был бы очень благодарен, если бы Вы выслали мне согласно пункту 6 договора I would appreciate very much if you send me, according to clause 6 of the agreement
-Мы бы попросили обеспечить нас We would kindly request to pro- vide us with
-В соответствии с законом я прошу (требую) In accordance with law I request
-Я был бы весьма благодарен, если бы Вы могли I (we) would (should) be most (extremely) grateful if you could
-подтвердить, что confirm that
-прислать мне send me
-известить , что notify  that
-добавить некоторые данные о add some data about
-связаться со мной по поводу продажи   и покупки   correspond with me regarding the sale of   and purchase of
+Мы будем рады
+Будьте добры
+Мы были бы Вам обязаны, если Вы
+Мы были бы рады, если Вы
+Мы надеемся, что Вы
+В связи со срочностью мы просим Вас
+Пожалуйста, сообщите
+Просим не отказать в любезности выслать нам
+Просим выслать нам
+Просим заметить, что
+Просим Вас сообщить нам о
+Просим оплатить
+Просим телеграфировать нам
+Мы хотим, чтобы вы выслали нам
+В дополнение к моей телеграмме я прошу сообщить нам
+Пожалуйста, укажите Ваш почтовый индекс, номера телефона и телекса.
+Прошу принять все необходимые меры для
+Сделайте, пожалуйста, все возможное, чтобы привести это дело к скорому положительному финалу.
+Вышлите нам, пожалуйста, срочно   в соответствии с нашим контрактом.
+Хотелось бы знать, не можете ли Вы оказать мне любезность
+Мы будем благодарны, если Вы
+Хотелось бы знать, не можете ли Вы мне помочь
+Мы будем благодарны Вам за сообщение Вашего решения относительно
+Просим у Вас некоторую дополнительную информацию о
+Будьте добры прислать мне
+Мы очень рассчитываем на Ваш ответ, чтобы иметь возможность
+Я был бы очень благодарен, если бы Вы выслали мне согласно пункту 6 договора
+Мы бы попросили обеспечить нас
+В соответствии с законом я прошу (требую)
+Я был бы весьма благодарен, если бы Вы могли
+подтвердить,
+прислать
+известить ,
+добавить некоторые данные о
+связаться со мной по поводу продажи и покупки
 ;
-Мы будем рады We shall (should) be pleased
-Будьте добры Would (will) you kindly/please
-Мы были бы Вам обязаны, если Вы We should be obliged if you could (would)
-Мы были бы рады, если Вы We should be glad if you would
-Мы надеемся, что Вы We trust you will
-В связи со срочностью мы просим Вас In view of the urgency we ask you to
-Пожалуйста, сообщите Please let me know
-Просим не отказать в любезности выслать нам We kindly ask you to send us
-Просим выслать нам Please send us
-Просим заметить, что Please take notice that
-Просим Вас сообщить нам о Please inform us about
-Просим оплатить We request to pay
-Просим телеграфировать нам We ask you to wire us
-Мы хотим, чтобы вы выслали нам We would like you to send us
-В дополнение к моей телеграмме я прошу сообщить нам In addition to my cable I would ask you to inform us
-Пожалуйста, укажите Ваш почтовый индекс, номера телефона и телекса. Please indicate your post-code, telepone and telex number.
-Прошу принять все необходимые меры для Please take all necessary measures for
-Сделайте, пожалуйста, все возможное, чтобы привести это дело к скорому положительному финалу. Please do your best to bring this matter to a fast positive end.
-Вышлите нам, пожалуйста, срочно   в соответствии с нашим контрактом. Please send is urgently   in accordance with our contract.
-Хотелось бы знать, не можете ли Вы оказать мне любезность I wonder if you would do me a favour
-Мы будем благодарны, если Вы It will be appreciated if you will please
-Хотелось бы знать, не можете ли Вы мне помочь I wonder if you could help me to
-Мы будем благодарны Вам за сообщение Вашего решения относительно We will appreciate your informing us of your decision concerning
-Просим у Вас некоторую дополнительную информацию о We ask you for some additional information
-Будьте добры прислать мне Could you please send me
-Мы очень рассчитываем на Ваш ответ, чтобы иметь возможность We would very much appreciate hearing from you so that we may
-Я был бы очень благодарен, если бы Вы выслали мне согласно пункту 6 договора I would appreciate very much if you send me, according to clause 6 of the agreement
-Мы бы попросили обеспечить нас We would kindly request to pro- vide us with
-В соответствии с законом я прошу (требую) In accordance with law I request
-Я был бы весьма благодарен, если бы Вы могли I (we) would (should) be most (extremely) grateful if you could
-подтвердить, что confirm that
-прислать мне send me
-известить , что notify  that
-добавить некоторые данные о add some data about
-связаться со мной по поводу продажи   и покупки   correspond with me regarding the sale of   and purchase of
-;
-Мы будем рады We shall (should) be pleased
-Будьте добры Would (will) you kindly/please
-Мы были бы Вам обязаны, если Вы We should be obliged if you could (would)
-Мы были бы рады, если Вы We should be glad if you would
-Мы надеемся, что Вы We trust you will
-В связи со срочностью мы просим Вас In view of the urgency we ask you to
-Пожалуйста, сообщите Please let me know
-Просим не отказать в любезности выслать нам We kindly ask you to send us
-Просим выслать нам Please send us
-Просим заметить, что Please take notice that
-Просим Вас сообщить нам о Please inform us about
-Просим оплатить We request to pay
-Просим телеграфировать нам We ask you to wire us
-Мы хотим, чтобы вы выслали нам We would like you to send us
-В дополнение к моей телеграмме я прошу сообщить нам In addition to my cable I would ask you to inform us
-Пожалуйста, укажите Ваш почтовый индекс, номера телефона и телекса. Please indicate your post-code, telepone and telex number.
-Прошу принять все необходимые меры для Please take all necessary measures for
-Сделайте, пожалуйста, все возможное, чтобы привести это дело к скорому положительному финалу. Please do your best to bring this matter to a fast positive end.
-Вышлите нам, пожалуйста, срочно   в соответствии с нашим контрактом. Please send is urgently   in accordance with our contract.
-Хотелось бы знать, не можете ли Вы оказать мне любезность I wonder if you would do me a favour
-Мы будем благодарны, если Вы It will be appreciated if you will please
-Хотелось бы знать, не можете ли Вы мне помочь I wonder if you could help me to
-Мы будем благодарны Вам за сообщение Вашего решения относительно We will appreciate your informing us of your decision concerning
-Просим у Вас некоторую дополнительную информацию о We ask you for some additional information
-Будьте добры прислать мне Could you please send me
-Мы очень рассчитываем на Ваш ответ, чтобы иметь возможность We would very much appreciate hearing from you so that we may
-Я был бы очень благодарен, если бы Вы выслали мне согласно пункту 6 договора I would appreciate very much if you send me, according to clause 6 of the agreement
-Мы бы попросили обеспечить нас We would kindly request to pro- vide us with
-В соответствии с законом я прошу (требую) In accordance with law I request
-Я был бы весьма благодарен, если бы Вы могли I (we) would (should) be most (extremely) grateful if you could
-подтвердить, что confirm that
-прислать мне send me
-известить , что notify  that
-добавить некоторые данные о add some data about
-связаться со мной по поводу продажи   и покупки   correspond with me regarding the sale of   and purchase of
-;
-Мы будем рады We shall (should) be pleased
-Будьте добры Would (will) you kindly/please
-Мы были бы Вам обязаны, если Вы We should be obliged if you could (would)
-Мы были бы рады, если Вы We should be glad if you would
-Мы надеемся, что Вы We trust you will
-В связи со срочностью мы просим Вас In view of the urgency we ask you to
-Пожалуйста, сообщите Please let me know
-Просим не отказать в любезности выслать нам We kindly ask you to send us
-Просим выслать нам Please send us
-Просим заметить, что Please take notice that
-Просим Вас сообщить нам о Please inform us about
-Просим оплатить We request to pay
-Просим телеграфировать нам We ask you to wire us
-Мы хотим, чтобы вы выслали нам We would like you to send us
-В дополнение к моей телеграмме я прошу сообщить нам In addition to my cable I would ask you to inform us
-Пожалуйста, укажите Ваш почтовый индекс, номера телефона и телекса. Please indicate your post-code, telepone and telex number.
-Прошу принять все необходимые меры для Please take all necessary measures for
-Сделайте, пожалуйста, все возможное, чтобы привести это дело к скорому положительному финалу. Please do your best to bring this matter to a fast positive end.
-Вышлите нам, пожалуйста, срочно   в соответствии с нашим контрактом. Please send is urgently   in accordance with our contract.
-Хотелось бы знать, не можете ли Вы оказать мне любезность I wonder if you would do me a favour
-Мы будем благодарны, если Вы It will be appreciated if you will please
-Хотелось бы знать, не можете ли Вы мне помочь I wonder if you could help me to
-Мы будем благодарны Вам за сообщение Вашего решения относительно We will appreciate your informing us of your decision concerning
-Просим у Вас некоторую дополнительную информацию о We ask you for some additional information
-Будьте добры прислать мне Could you please send me
-Мы очень рассчитываем на Ваш ответ, чтобы иметь возможность We would very much appreciate hearing from you so that we may
-Я был бы очень благодарен, если бы Вы выслали мне согласно пункту 6 договора I would appreciate very much if you send me, according to clause 6 of the agreement
-Мы бы попросили обеспечить нас We would kindly request to pro- vide us with
-В соответствии с законом я прошу (требую) In accordance with law I request
-Я был бы весьма благодарен, если бы Вы могли I (we) would (should) be most (extremely) grateful if you could
-подтвердить, что confirm that
-прислать мне send me
-известить , что notify  that
-добавить некоторые данные о add some data about
-связаться со мной по поводу продажи   и покупки   correspond with me regarding the sale of   and purchase of
+Мы будем рады
+Будьте добры
+Мы были бы Вам обязаны, если Вы
+Мы были бы рады, если Вы
+Мы надеемся, что Вы
+В связи со срочностью мы просим Вас
+Пожалуйста, сообщите
+Просим не отказать в любезности выслать нам
+Просим выслать нам
+Просим заметить, что
+Просим Вас сообщить нам о
+Просим оплатить
+Просим телеграфировать нам
+Мы хотим, чтобы вы выслали нам
+В дополнение к моей телеграмме я прошу сообщить нам
+Пожалуйста, укажите Ваш почтовый индекс, номера телефона и телекса.
+Прошу принять все необходимые меры для
+Сделайте, пожалуйста, все возможное, чтобы привести это дело к скорому положительному финалу.
+Вышлите нам, пожалуйста, срочно   в соответствии с нашим контрактом.
+Хотелось бы знать, не можете ли Вы оказать мне любезность
+Мы будем благодарны, если Вы
+Хотелось бы знать, не можете ли Вы мне помочь
+Мы будем благодарны Вам за сообщение Вашего решения относительно
+Просим у Вас некоторую дополнительную информацию о
+Будьте добры прислать мне
+Мы очень рассчитываем на Ваш ответ, чтобы иметь возможность
+Я был бы очень благодарен, если бы Вы выслали мне согласно пункту 6 договора
+Мы бы попросили обеспечить нас
+В соответствии с законом я прошу (требую)
+Я был бы весьма благодарен, если бы Вы могли
+подтвердить,
+прислать
+известить ,
+добавить некоторые данные о
+связаться со мной по поводу продажи и покупки
 ;

@@ -38,55 +38,30 @@ additional-tags = not-require-answer, ordinary, single-aspect, unregulated, elec
 По любым возникшим вопросам обращайтесь по телефону: (495) 742-15-22.
 С уважением,
 ;
-I am writing to you in replay to your advertising in ...
 Я пишу в ответ на вашу рекламу в ...(в ... средстве массовой информации).
-I have just completed my final year at the University of ...
 Я только что закончил ...(...) университет.
-My name is Alex and I am a final year student at the ...
 Меня зовут Алекс и я студент последнего курса... (... института)
-My name is Alex and I am writing in response to your advertisement.
 Меня зовут Алекс и я пишу в ответ на ваше объявление.
-I was most interested to read your advertisement for ...
 Я был очень заинтересован, когда прочитал вашу рекламу в ...(в таком-то средстве массовой информации).
-With reference to your vacancy for a ...
 В связи с вашей вакансией для ...(... специалиста).
-Please accept this letter as application for the ... position currently advertised in the ...
 Пожалуйста, примите это письмо как заявление на замещение вакантной должности ... , которая была объявлена в ...(в ... средстве массовой информации).
-I was thrilled when my friend, Jack Faber, told me there was an opening for ... at your company.
 Я был взволнован, когда мой друг, Джек Файбер, рассказал мне, что есть открытая вакансия для ...(... специалиста) в вашей компании .
 ;
-I'd like to give you a brief overview of my skills and experience.
 Я хотел бы дать вам краткий обзор моих навыков и опыта.
-I am hardworking, analytical and like taking initiative.
 Я трудолюбив, инициативен и обладаю аналитичным умом.
- I believe that my skill-set matches perfectly with your requirements.
 Я считаю, что мой набор навыков идеально сочетается с вашими требованиями.
-I think that my economic activities and a solid track record may be of interest to you.
 Я думаю, что моя экономическая деятельность и солидный послужной список могут представлять интерес для вас.
-I'm confident that I am the employee you are seeking because I have all of the qualifications outlined in your job posting.
 Я уверен, что я сотрудник, которого Вы ищете, потому что у меня та квалификация, которая озвучена в Вашем объявлении.
-The offered post presents an unusual interest to me as it belongs to the field in which I specialize.
 Эта вакансия представляет необычайный интерес для меня, так как она относится к области, в которой я специализируюсь.
-I have exceptional verbal and written communication skills.
 Я обладаю исключительными устными и письменными коммуникативными навыками.
-I have driver's license and can drive rather well.
 Я имею водительские права и могу неплохо водить.
-I know that my...  (such and such qualities
- would allow me to make a significant contribution to the (Company Name) team.
 Я знаю, что мои... (такие-то качества) позволят мне внести существенный вклад в команду (такой-то комании) .
-I believe I possess the right combination of...(such and such qualities)and…(such and such qualities).
 Уверен, что я обладаю отличной комбинацией... (такого-то качества) и (такого-то качества).
 ;
-I would enjoy an opportunity to talk with you to see where my skill set would be of the greatest benefit to your company.
 Я бы с удовольствием пообщался с Вами, чтобы понять, где мои навыки будут наиболее полезны для вашей компании.
-As you can see from my resume, my experience and qualifications match this position's requirements.
 Как вы можете видеть из моего резюме, мой опыт и квалификация соответствуют требованиям этой вакансии.
-The attached resume details my extensive experience and training.
 В прилагаемом резюме подробности моего обширного опыта и подготовки.
-At a personal meeting I would like to discuss with you how I will contribute to the continued growth of your company.
 При личной встрече я хотел бы обсудить с вами, как я могу способствовать дальнейшему росту Вашей компании.
-I can supply references from…if required.
 Если потребуется, я могу предоставить рекомендации из ...(... организации).
-If you agree that my qualifications perfectly match your requirements, please call me at (111) 111-1111 to arrange an interview.
 Если вы согласны, что моя квалификация вполне соответствуют Вашим требованиям, пожалуйста, позвоните мне по телефону (111) 111-1111, чтобы договориться об интервью.
 ;

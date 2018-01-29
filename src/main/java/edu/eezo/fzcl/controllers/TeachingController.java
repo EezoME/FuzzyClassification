@@ -18,6 +18,7 @@ public class TeachingController implements Serializable {
     public void init() {
         service.readInfo();
         service.readLetterTypes();
+        service.searchForUniqueWords();
     }
 
     public LetterService getService() {

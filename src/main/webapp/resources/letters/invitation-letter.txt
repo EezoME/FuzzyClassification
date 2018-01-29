@@ -19,3 +19,49 @@ additional-tags = not-require-answer, ordinary, single-aspect, unregulated, elec
 Надеемся увидеть Вас в числе наших гостей на выставке.
 За дополнительной информацией Вы можете обращаться по телефону 495-587-45-71 или на сайт компании
 ;
+Уважаемый Том Николсон,
+Имею честь пригласить Вас на обед в Enchante в следующую среду.  Я считаю, что это будет прекрасная возможность, чтобы узнать больше о процессе производства Вашей компании и обсудить, как наши Magnaflux-компрессора могут снизить ваши эксплуатационные расходы.
+Пожалуйста, сообщите мне по телефону +7912ХХХХХХХХ сможете ли Вы прийти на обед.
+С уважением,
+Игорь Петров,
+Управляющий ООО Компания "Центр"
+;
+Dear Tom Nicholson,
+Allow me the pleasure of inviting you to lunch at  Enchante next Wednesday. I believe it will be a wonderful opportunity for me to learn more about your firm's manufacturing process and to discuss how our Magnaflux compressor can reduce your operating costs.
+Please tell me whether you are able to come by calling me at +7912ХХХХХХХХ
+Best regards,
+Igor Petrov,
+Managing Director Ltd. The company "Center"
+;
+Дорогой Нельсон,
+К нашему большому удовольствию сообщаем Вам, что наша новая продуктовая линия готова для вашей проверки.
+Мы считаем, что Вы будете восхищены сюрпризом, когда увидите некоторые из наших последних инноваций в концепции и дизайне, и приглашаем Вас посетить 12 апреля 2012 года наш демонстрационный зал (Россия, Москва, улице Пушкина, 56), где к Вашему удобству будет организована демонстрация.
+Мы с нетерпением ожидаем встречи с Вами в ближайшее время.
+С уважением,
+Игорь Петров,
+Управляющий ООО Компания "Центр"
+;
+Dear Nelson,
+It is our great pleasure to inform you that our new product line is ready for your inspection.
+We believe that you will be delighted with a surprise when you see some of our latest innovations in the conception and design, and we invite you to visit April 12, 2012 our showroom (56, Pushkin Street, Moscow, Russia), where your convenience, will be organized demonstration.
+We will look forward to seeing you soon.
+Sincerely,
+Igor Petrov,
+Managing Director Ltd. The company "Center"
+;
+Уважаемый Чарлз Милтон,
+Я хотел бы пригласить Вас на семинар, который я уверен, заинтересует Вас.
+На семинаре, посвященном 3D-технологии, который состоится в Московском Крокус Конгресс Центре 13 июня, прочтут лекции  несколько ключевых программистов и дизайнеров по 3D-моделированию, включая трилинейную фильтрацию, сглаживание и мипмаппинг.
+Я прилагаю 3 билета для Вас. Я надеюсь, что Вы примете участие в семинаре, и я с нетерпением жду встречи с вами.
+С уважением,
+Игорь Петров,
+Управляющий ООО Компания "Центр"
+;
+Dear Charles Milton,
+I would like to invite you to a seminar that I'm confident will interest you.
+The 3D Technologies Seminar held at the Moscow Crocus Congress Centre on June 13 will feature lectures by several key programmers and designers in the field of 3D modeling, with topics including trilinear filtering, anti-aliasing and mipmapping.
+I am enclosing 3 tickets for you. I hope that you decide to attend and I am looking forward to seeing you there.
+Best regards,
+Igor Petrov,
+Managing Director Ltd. The company "Center"
+;

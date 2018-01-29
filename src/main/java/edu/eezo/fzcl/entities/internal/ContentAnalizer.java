@@ -4,11 +4,11 @@ import java.util.*;
 
 public class ContentAnalizer {
     private Map<String, Integer> wordsCounter;
-    private List<String> uniqueWords;
+    private Set<String> uniqueWords;
 
     public ContentAnalizer() {
         this.wordsCounter = new HashMap<>();
-        this.uniqueWords = new ArrayList<>();
+        this.uniqueWords = new HashSet<>();
     }
 
     // TODO: найти более подходяшие примеры писем
@@ -43,5 +43,13 @@ public class ContentAnalizer {
             }
         }
         return newWordsCounter;
+    }
+
+    public Set<String> getUniqueWords() {
+        return uniqueWords;
+    }
+
+    public void setUniqueWords(Set<String> uniqueWords) {
+        this.uniqueWords = uniqueWords;
     }
 }

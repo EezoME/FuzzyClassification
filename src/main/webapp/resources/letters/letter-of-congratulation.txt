@@ -30,3 +30,123 @@ additional-tags = not-require-answer, ordinary, single-aspect, unregulated, elec
 ;
 Дорогой ! Сердечно поздравляем Вас и в Вашем лице сотрудников компании с Рождеством и наступающим Новым годом! Уходящий год ознаменовался для Вашей компании большими успехами на российском рынке. Мы искренне рады, что являемся Вашими постоянными партнерами и наше сотрудничество способствует развитию российско-швейцарских экономических отношений. Желаем Вам и всем сотрудникам компании дальнейших профессиональных успехов в России, крепкого здоровья, благополучия и многих счастливых дней в Новом году. С искренним уважением, Дорогие секретари!
 ;
+Поздравляю с I congratulate with
+Поздравляю с Днем рождения! Happy birthday!
+Наилучшие пожелания к Рождеству и Новому году. The best regards by Christmas and New year.
+Поздравляю и желаю всего наилучшего! I congratulate and wish all the best!
+С Новым годом! Happy New Year!
+Поздравляю с рождением сына/дочьки! I congratulate on the birth of the son/daughter!
+Поздравляю с Юбилеем! Congratulations on your anniversary!
+Поздравляю с окончанием учебы! Congratulations on your graduation!
+Поздравляем по случаю открытия Вашей новой галереи. Congratulations on the opening of your new gallery.
+Поздравляю с этим великим событием! I congratulate on this great event!
+Поздравляем с хорошо сделанной работой! Congratulations on a job well done.
+Если бы удовольствие  Had the pleasure of 
+Мы надеемся, что наступающий год принесет вам мир, крепкое здоровье  и благополучие! We hope that the coming year will bring you peace, good health and prosperity!
+Я надеюсь, вы все здоровы и хорошо проведете Рождество и новогодние праздники. I hope that you are well and will have a good holiday at Christmas and Happy Holiday Season.
+Очень приятно слышать   Delighted to hear 
+Заслуженные вами достижения  Honored your achievements 
+Было очень приятно слышать  Were very pleased to hear 
+Был рад узнать о  Was happy to learn of 
+Поздравляю от всей души Heartiest congratulations
+Ваше выдающееся достижение  Your outstanding achievement 
+Хотелось бы, чтобы вы знали  Would like you to know 
+С большим удовольствием поздравляю вас с It gives me a great pleasure to congratulate you on…
+Наилучшие пожелания будущих успехов в вашей работе и личного счастья Best wishes of further success in your work and of personal happiness.
+;
+Поздравляю с I congratulate with
+Поздравляю с Днем рождения! Happy birthday!
+Наилучшие пожелания к Рождеству и Новому году. The best regards by Christmas and New year.
+Поздравляю и желаю всего наилучшего! I congratulate and wish all the best!
+С Новым годом! Happy New Year!
+Поздравляю с рождением сына/дочьки! I congratulate on the birth of the son/daughter!
+Поздравляю с Юбилеем! Congratulations on your anniversary!
+Поздравляю с окончанием учебы! Congratulations on your graduation!
+Поздравляем по случаю открытия Вашей новой галереи. Congratulations on the opening of your new gallery.
+Поздравляю с этим великим событием! I congratulate on this great event!
+Поздравляем с хорошо сделанной работой! Congratulations on a job well done.
+Если бы удовольствие  Had the pleasure of
+Мы надеемся, что наступающий год принесет вам мир, крепкое здоровье  и благополучие! We hope that the coming year will bring you peace, good health and prosperity!
+Я надеюсь, вы все здоровы и хорошо проведете Рождество и новогодние праздники. I hope that you are well and will have a good holiday at Christmas and Happy Holiday Season.
+Очень приятно слышать   Delighted to hear
+Заслуженные вами достижения  Honored your achievements
+Было очень приятно слышать  Were very pleased to hear
+Был рад узнать о  Was happy to learn of
+Поздравляю от всей души Heartiest congratulations
+Ваше выдающееся достижение  Your outstanding achievement
+Хотелось бы, чтобы вы знали  Would like you to know
+С большим удовольствием поздравляю вас с It gives me a great pleasure to congratulate you on…
+Наилучшие пожелания будущих успехов в вашей работе и личного счастья Best wishes of further success in your work and of personal happiness.
+;
+Поздравляю с I congratulate with
+Поздравляю с Днем рождения! Happy birthday!
+Наилучшие пожелания к Рождеству и Новому году. The best regards by Christmas and New year.
+Поздравляю и желаю всего наилучшего! I congratulate and wish all the best!
+С Новым годом! Happy New Year!
+Поздравляю с рождением сына/дочьки! I congratulate on the birth of the son/daughter!
+Поздравляю с Юбилеем! Congratulations on your anniversary!
+Поздравляю с окончанием учебы! Congratulations on your graduation!
+Поздравляем по случаю открытия Вашей новой галереи. Congratulations on the opening of your new gallery.
+Поздравляю с этим великим событием! I congratulate on this great event!
+Поздравляем с хорошо сделанной работой! Congratulations on a job well done.
+Если бы удовольствие  Had the pleasure of
+Мы надеемся, что наступающий год принесет вам мир, крепкое здоровье  и благополучие! We hope that the coming year will bring you peace, good health and prosperity!
+Я надеюсь, вы все здоровы и хорошо проведете Рождество и новогодние праздники. I hope that you are well and will have a good holiday at Christmas and Happy Holiday Season.
+Очень приятно слышать   Delighted to hear
+Заслуженные вами достижения  Honored your achievements
+Было очень приятно слышать  Were very pleased to hear
+Был рад узнать о  Was happy to learn of
+Поздравляю от всей души Heartiest congratulations
+Ваше выдающееся достижение  Your outstanding achievement
+Хотелось бы, чтобы вы знали  Would like you to know
+С большим удовольствием поздравляю вас с It gives me a great pleasure to congratulate you on…
+Наилучшие пожелания будущих успехов в вашей работе и личного счастья Best wishes of further success in your work and of personal happiness.
+;
+Поздравляю с I congratulate with
+Поздравляю с Днем рождения! Happy birthday!
+Наилучшие пожелания к Рождеству и Новому году. The best regards by Christmas and New year.
+Поздравляю и желаю всего наилучшего! I congratulate and wish all the best!
+С Новым годом! Happy New Year!
+Поздравляю с рождением сына/дочьки! I congratulate on the birth of the son/daughter!
+Поздравляю с Юбилеем! Congratulations on your anniversary!
+Поздравляю с окончанием учебы! Congratulations on your graduation!
+Поздравляем по случаю открытия Вашей новой галереи. Congratulations on the opening of your new gallery.
+Поздравляю с этим великим событием! I congratulate on this great event!
+Поздравляем с хорошо сделанной работой! Congratulations on a job well done.
+Если бы удовольствие  Had the pleasure of
+Мы надеемся, что наступающий год принесет вам мир, крепкое здоровье  и благополучие! We hope that the coming year will bring you peace, good health and prosperity!
+Я надеюсь, вы все здоровы и хорошо проведете Рождество и новогодние праздники. I hope that you are well and will have a good holiday at Christmas and Happy Holiday Season.
+Очень приятно слышать   Delighted to hear
+Заслуженные вами достижения  Honored your achievements
+Было очень приятно слышать  Were very pleased to hear
+Был рад узнать о  Was happy to learn of
+Поздравляю от всей души Heartiest congratulations
+Ваше выдающееся достижение  Your outstanding achievement
+Хотелось бы, чтобы вы знали  Would like you to know
+С большим удовольствием поздравляю вас с It gives me a great pleasure to congratulate you on…
+Наилучшие пожелания будущих успехов в вашей работе и личного счастья Best wishes of further success in your work and of personal happiness.
+;
+Поздравляю с I congratulate with
+Поздравляю с Днем рождения! Happy birthday!
+Наилучшие пожелания к Рождеству и Новому году. The best regards by Christmas and New year.
+Поздравляю и желаю всего наилучшего! I congratulate and wish all the best!
+С Новым годом! Happy New Year!
+Поздравляю с рождением сына/дочьки! I congratulate on the birth of the son/daughter!
+Поздравляю с Юбилеем! Congratulations on your anniversary!
+Поздравляю с окончанием учебы! Congratulations on your graduation!
+Поздравляем по случаю открытия Вашей новой галереи. Congratulations on the opening of your new gallery.
+Поздравляю с этим великим событием! I congratulate on this great event!
+Поздравляем с хорошо сделанной работой! Congratulations on a job well done.
+Если бы удовольствие  Had the pleasure of
+Мы надеемся, что наступающий год принесет вам мир, крепкое здоровье  и благополучие! We hope that the coming year will bring you peace, good health and prosperity!
+Я надеюсь, вы все здоровы и хорошо проведете Рождество и новогодние праздники. I hope that you are well and will have a good holiday at Christmas and Happy Holiday Season.
+Очень приятно слышать   Delighted to hear
+Заслуженные вами достижения  Honored your achievements
+Было очень приятно слышать  Were very pleased to hear
+Был рад узнать о  Was happy to learn of
+Поздравляю от всей души Heartiest congratulations
+Ваше выдающееся достижение  Your outstanding achievement
+Хотелось бы, чтобы вы знали  Would like you to know
+С большим удовольствием поздравляю вас с It gives me a great pleasure to congratulate you on…
+Наилучшие пожелания будущих успехов в вашей работе и личного счастья Best wishes of further success in your work and of personal happiness.
+;

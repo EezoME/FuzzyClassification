@@ -11,7 +11,7 @@
     <!--<meta http-equiv="refresh" content="0; url=home.xhtml"/>-->
     <!--</c:if>-->
     <script src="https://use.fontawesome.com/51d1b53670.js" type="application/javascript"/>
-    <!--<h:outputStylesheet library="css" name="index.css"/>-->
+    <h:outputStylesheet library="css" name="teaching-page.css"/>
 </h:head>
 <h:body>
     <p:growl autoUpdate="true"/>
@@ -39,12 +39,28 @@
                     </p:column>
 
                     <p:column headerText="Possible keywords&lt;br/&gt;every word with 4+ letters">
-                        <ui:repeat value="#{letterType.contentAnalizer.getWordsCounterFiltered().keySet().toArray()}" var="words">
-                            #{words}: #{letterType.contentAnalizer.wordsCounter.get(words)}<br/>
+                        <c:if test="#{letterType.contentAnalizer.uniqueWords.isEmpty()}">
+                            <span class="no-unique-message">Letter has no <span class="unique">unique</span> words.</span><br/>
+                        </c:if>
+                        <ui:repeat value="#{letterType.contentAnalizer.getWordsCounterFiltered().keySet().toArray()}"
+                                   var="word">
+                            <c:if test="#{letterType.contentAnalizer.uniqueWords.contains(word)}">
+                                <c:set var="uniq" value="true"/>
+                            </c:if>
+                            <c:if test="#{uniq}">
+                                <span class="unique">#{word}: #{letterType.contentAnalizer.wordsCounter.get(word)}</span>
+                            </c:if>
+                            <c:if test="#{!uniq}">
+                                #{word}: #{letterType.contentAnalizer.wordsCounter.get(word)}
+                            </c:if>
+                            <br/>
                         </ui:repeat>
                     </p:column>
                 </p:dataTable>
             </h:panelGrid>
+            <h:form>
+                <h:commandLink action="#{teachingController.init()}" value="Rerun"/>
+            </h:form>
         </p:panel>
     </div>
 </h:body>

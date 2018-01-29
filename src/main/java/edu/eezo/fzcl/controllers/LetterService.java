@@ -14,6 +14,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Stream;
 
 /**
@@ -28,7 +29,7 @@ import java.util.stream.Stream;
 @ManagedBean
 @ApplicationScoped
 public class LetterService {
-    private static final String LETTERS_FOLDER_PATH = "F:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
+    private static final String LETTERS_FOLDER_PATH = "D:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
     private List<AdditionalTag> additionalTags;
     private List<LetterType> letterTypes;
     private Map<String, List<String>> commonWords;
@@ -128,6 +129,32 @@ public class LetterService {
             e.printStackTrace();
         }
     }
+
+    public void searchForUniqueWords() {
+        for (LetterType letterType : letterTypes) {
+            Set<String> filteredWords = letterType.getContentAnalizer().getWordsCounterFiltered().keySet();
+//            System.out.println(filteredWords.size());
+
+            for (LetterType letterType1 : letterTypes) {
+                Set<String> filteredWordsCompared = letterType1.getContentAnalizer().getWordsCounterFiltered().keySet();
+                filteredWords.removeAll(filteredWordsCompared);
+//                System.out.println(filteredWords.size());
+            }
+            letterType.getContentAnalizer().setUniqueWords(filteredWords);
+        }
+    }
+
+//    private void searchForCommonWords() {
+//        for (LetterType letterType : letterTypes) {
+//            Set<String> filteredWords = letterType.getContentAnalizer().getWordsCounterFiltered().keySet();
+//
+//            for (LetterType letterType1 : letterTypes) {
+//                Set<String> filteredWordsComparased = letterType1.getContentAnalizer().getWordsCounterFiltered().keySet();
+//                filteredWords.removeAll(filteredWordsComparased);
+//            }
+//            letterType.getContentAnalizer().setUniqueWords(filteredWords);
+//        }
+//    }
 
     public List<AdditionalTag> getAdditionalTags() {
         return additionalTags;

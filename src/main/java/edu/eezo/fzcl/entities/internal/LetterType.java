@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class LetterType {
     private static final String[] SUPPORTED_LOCALES = AdditionalTag.SUPPORTED_LOCALES;
-    public static final String[] SUPPORTED_LOCALES_TESTS = new String[]{"RU: ", "EN: ", "UA: "};
+    private static final String[] SUPPORTED_LOCALES_TESTS = new String[]{"RU: ", "EN: ", "UA: "};
     private List<String> tags;
     private Map<String, String> localizedDescription;
     private List<AdditionalTag> additionalTags;

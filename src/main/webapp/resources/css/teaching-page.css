@@ -1,5 +1,9 @@
 .unique {
-    color: red;
+    color: #f00;
+}
+
+.most-used {
+    color: #0f0;
 }
 
 .no-unique-message {

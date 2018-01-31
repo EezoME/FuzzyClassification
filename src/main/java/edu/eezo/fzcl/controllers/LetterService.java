@@ -11,10 +11,7 @@ import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Stream;
 
 /**
@@ -29,10 +26,10 @@ import java.util.stream.Stream;
 @ManagedBean
 @ApplicationScoped
 public class LetterService {
-    private static final String LETTERS_FOLDER_PATH = "D:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
+    private static final String LETTERS_FOLDER_PATH = "F:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
     private List<AdditionalTag> additionalTags;
     private List<LetterType> letterTypes;
-    private Map<String, List<String>> commonWords;
+    private Map<String, List<LetterType>> commonWords;
 
     /**
      * Reads {@code info.json} file in letters directory.
@@ -78,6 +75,78 @@ public class LetterService {
             e.printStackTrace();
         }
     }
+
+    public void searchForUniqueWords() {
+        for (LetterType letterType : letterTypes) {
+            Set<String> filteredWords = new HashSet<>(letterType.getContentAnalizer().getWordsCounterFiltered().keySet());
+
+            for (LetterType letterType1 : letterTypes) {
+                if (letterType.equals(letterType1)) continue;
+                Set<String> filteredWordsCompared = letterType1.getContentAnalizer().getWordsCounterFiltered().keySet();
+                filteredWords.removeAll(filteredWordsCompared);
+            }
+            letterType.getContentAnalizer().setUniqueWords(filteredWords);
+        }
+    }
+
+    public void searchForCommonWords() {
+        this.commonWords = new HashMap<>();
+        for (LetterType firstCircleLetter : letterTypes) {
+            Set<String> firstCircleNonUniqueWords = firstCircleLetter.getContentAnalizer().getNonUniqueWords();
+
+            for (String firstCircleNonUniqueWord : firstCircleNonUniqueWords) {
+                if (this.commonWords.keySet().contains(firstCircleNonUniqueWord)) continue;
+                List<LetterType> letterTypeList = new ArrayList<>();
+                letterTypeList.add(firstCircleLetter);
+
+                for (LetterType secondCircleLetter : letterTypes) {
+                    if (firstCircleLetter.equals(secondCircleLetter)) continue;
+                    Set<String> secondCircleNonUniqueWords = secondCircleLetter.getContentAnalizer().getNonUniqueWords();
+
+                    for (String secondCircleNonUniqueWord : secondCircleNonUniqueWords) {
+                        if (firstCircleNonUniqueWord.equalsIgnoreCase(secondCircleNonUniqueWord)) {
+                            letterTypeList.add(secondCircleLetter);
+                        }
+                    }
+                }
+                this.commonWords.put(firstCircleNonUniqueWord, letterTypeList);
+            }
+        }
+    }
+
+    public Map<String, LetterType> getMostUsedWordsByLetters() {
+        Map<String, LetterType> mostUsedWordsByLetters = new HashMap<>();
+        Set<String> allWords = getAllWords();
+        for (String word : allWords) {
+            int max = Integer.MIN_VALUE;
+            int index = -1;
+            for (int i = 0; i < letterTypes.size(); i++) {
+                if (!letterTypes.get(i).getContentAnalizer().getWordsCounterFiltered().containsKey(word)) continue;
+                Integer number = letterTypes.get(i).getContentAnalizer().getWordsCounterFiltered().get(word);
+                if (number > max) {
+                    max = number;
+                    index = i;
+                }
+            }
+            if (index != -1) {
+                mostUsedWordsByLetters.put(word, letterTypes.get(index));
+            }
+        }
+        return mostUsedWordsByLetters;
+    }
+
+    public List<AdditionalTag> getAdditionalTags() {
+        return additionalTags;
+    }
+
+    public List<LetterType> getLetterTypes() {
+        return letterTypes;
+    }
+
+    public Map<String, List<LetterType>> getCommonWords() {
+        return commonWords;
+    }
+
 
     /**
      * Reads and parses letter type file.<br/>
@@ -130,36 +199,11 @@ public class LetterService {
         }
     }
 
-    public void searchForUniqueWords() {
+    private Set<String> getAllWords() {
+        Set<String> allWords = new HashSet<>();
         for (LetterType letterType : letterTypes) {
-            Set<String> filteredWords = letterType.getContentAnalizer().getWordsCounterFiltered().keySet();
-
-            for (LetterType letterType1 : letterTypes) {
-                if (letterType.equals(letterType1)) continue;
-                Set<String> filteredWordsCompared = letterType1.getContentAnalizer().getWordsCounterFiltered().keySet();
-                filteredWords.removeAll(filteredWordsCompared);
-            }
-            letterType.getContentAnalizer().setUniqueWords(filteredWords);
+            allWords.addAll(letterType.getContentAnalizer().getWordsCounterFiltered().keySet());
         }
-    }
-
-//    private void searchForCommonWords() {
-//        for (LetterType letterType : letterTypes) {
-//            Set<String> filteredWords = letterType.getContentAnalizer().getWordsCounterFiltered().keySet();
-//
-//            for (LetterType letterType1 : letterTypes) {
-//                Set<String> filteredWordsComparased = letterType1.getContentAnalizer().getWordsCounterFiltered().keySet();
-//                filteredWords.removeAll(filteredWordsComparased);
-//            }
-//            letterType.getContentAnalizer().setUniqueWords(filteredWords);
-//        }
-//    }
-
-    public List<AdditionalTag> getAdditionalTags() {
-        return additionalTags;
-    }
-
-    public List<LetterType> getLetterTypes() {
-        return letterTypes;
+        return allWords;
     }
 }

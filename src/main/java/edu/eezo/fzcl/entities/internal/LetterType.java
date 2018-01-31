@@ -98,4 +98,9 @@ public class LetterType {
     public void incAnalyzedNumber() {
         this.analyzedNumber++;
     }
+
+    @Override
+    public String toString() {
+        return "LetterType{" + tags.get(0) + "}";
+    }
 }

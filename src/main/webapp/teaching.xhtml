@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:p="http://primefaces.org/ui" xmlns:c="http://java.sun.com/jsp/jstl/core"
-      xmlns:ui="http://java.sun.com/jsf/facelets">
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
     <title>Обучение - #{indexController.titlePrefix}</title>
     <!--<c:if test="#{userController.entered}">-->
@@ -21,7 +21,10 @@
                 <h:commandLink action="#{teachingController.init()}" value="Rerun" update="rerunnable"/>
             </h:form>
             <h:panelGrid columns="2" id="rerunnable">
-                <p:dataTable var="letterType" value="#{teachingController.service.letterTypes}" stickyHeader="true">
+                <p:dataTable var="letterType" value="#{teachingController.letterService.letterTypes}" stickyHeader="true">
+                    <f:facet name="header">
+                        Letters summary
+                    </f:facet>
                     <p:column headerText="Tags">
                         <ui:repeat value="#{letterType.tags}" var="tag">
                             #{tag}<br/>
@@ -41,9 +44,9 @@
                         </ui:repeat>
                     </p:column>
 
-                    <c:set var="mostUsedWords" value="#{teachingController.service.mostUsedWordsByLetters}"/>
+                    <c:set var="mostUsedWords" value="#{teachingController.letterService.mostUsedWordsByLetters}"/>
                     <p:column
-                            headerText="Possible keywords&lt;br/&gt;&lt;span style='font-size: smaller'&gt;every word with 4+ letters&lt;/span&gt;">
+                            headerText="Possible keywords&lt;br/&gt;&lt;span style='font-size: smaller'&gt;every word with 4+ characters&lt;/span&gt;">
                         <h:outputText id="no-unique" rendered="#{letterType.contentAnalyzer.uniqueWords.isEmpty()}"
                                       styleClass="no-unique-message" value="Letter has no unique words."/>
                         <h:outputText id="unique-count" rendered="#{!letterType.contentAnalyzer.uniqueWords.isEmpty()}"
@@ -69,16 +72,45 @@
                     </p:column>
                 </p:dataTable>
                 <!-- Map<String, List<LetterType>> -->
-                <p:dataTable var="commonWord" value="#{teachingController.service.commonWords.keySet().toArray()}">
+                <p:dataTable var="commonWord" value="#{teachingController.letterService.commonWords.keySet().toArray()}">
+                    <f:facet name="header">
+                        Common words
+                    </f:facet>
                     <p:column headerText="Word">
                         #{commonWord}<br/>
                     </p:column>
                     <p:column headerText="Letter types">
-                        <ui:repeat value="#{teachingController.service.commonWords.get(commonWord).toArray()}"
+                        <ui:repeat value="#{teachingController.letterService.commonWords.get(commonWord).toArray()}"
                                    var="letterType1">
                             #{letterType1.tags.get(0)},
                         </ui:repeat><br/>
-                        [Total: #{teachingController.service.commonWords.get(commonWord).size()} letters]
+                        [Total: #{teachingController.letterService.commonWords.get(commonWord).size()} letters]
+                    </p:column>
+                </p:dataTable>
+                <p:dataTable var="letter" value="#{teachingController.knowledgeBase.lettersRanges.keySet().toArray()}">
+                    <f:facet name="header">
+                        Knowledge Base - Letters Ranges
+                    </f:facet>
+                    <p:column headerText="Letter">
+                        #{letter}<br/>
+                    </p:column>
+                    <p:column headerText="Range">
+                        #{teachingController.knowledgeBase.lettersRanges.get(letter)}<br/>
+                    </p:column>
+                </p:dataTable>
+                <p:dataTable var="aWord" value="#{teachingController.knowledgeBase.wordsWeights.keySet().toArray()}">
+                    <f:facet name="header">
+                        Knowledge Base - Words Weights
+                    </f:facet>
+                    <p:column headerText="Word">
+                        #{aWord}<br/>
+                    </p:column>
+                    <p:column headerText="Range">
+                        <ui:repeat value="#{teachingController.knowledgeBase.wordsWeights.get(aWord).toArray()}"
+                                   var="range">
+                            #{range},
+                        </ui:repeat><br/>
+                        [Total: #{teachingController.knowledgeBase.wordsWeights.get(aWord).size()} ranges]
                     </p:column>
                 </p:dataTable>
             </h:panelGrid>

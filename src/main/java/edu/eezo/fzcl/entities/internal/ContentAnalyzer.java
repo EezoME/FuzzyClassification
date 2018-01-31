@@ -3,7 +3,14 @@ package edu.eezo.fzcl.entities.internal;
 import java.util.*;
 
 public class ContentAnalyzer {
+    /**
+     * Map of words and their number in the letter.
+     */
     private Map<String, Integer> wordsCounter;
+    /**
+     * Map of filtered words and their number in the letter.
+     * Filters all the words, which in a letter at least three
+     */
     private Map<String, Integer> wordsCounterFiltered;
     private Set<String> uniqueWords;
 

@@ -4,10 +4,11 @@ import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import javax.faces.context.FacesContext;
+import java.io.Serializable;
 
 @ManagedBean
 @SessionScoped
-public class IndexController {
+public class IndexController implements Serializable {
     private String titlePrefix = "Fuzzy Classification";
 
     public static void showMessage(String message) {

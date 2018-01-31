@@ -1,5 +1,7 @@
 package edu.eezo.fzcl.controllers;
 
+import edu.eezo.fzcl.fuzzyInference.KnowledgeBase;
+
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
@@ -12,21 +14,33 @@ import java.io.Serializable;
 @SessionScoped
 public class TeachingController implements Serializable {
     @ManagedProperty("#{letterService}")
-    private LetterService service;
+    private LetterService letterService;
+    @ManagedProperty("#{knowledgeBase}")
+    private KnowledgeBase knowledgeBase;
 
     @PostConstruct
     public void init() {
-        service.readInfo();
-        service.readLetterTypes();
-        service.searchForUniqueWords();
-        service.searchForCommonWords();
+        letterService.readInfo();
+        letterService.readLetterTypes();
+        letterService.searchForUniqueWords();
+        letterService.searchForCommonWords();
+        knowledgeBase.initLettersRanges(letterService.getLetterTypes());
+        knowledgeBase.initWordsWeights(letterService.getLetterTypes(), letterService.getMostUsedWordsByLetters());
     }
 
-    public LetterService getService() {
-        return service;
+    public LetterService getLetterService() {
+        return letterService;
     }
 
-    public void setService(LetterService service) {
-        this.service = service;
+    public void setLetterService(LetterService letterService) {
+        this.letterService = letterService;
+    }
+
+    public KnowledgeBase getKnowledgeBase() {
+        return knowledgeBase;
+    }
+
+    public void setKnowledgeBase(KnowledgeBase knowledgeBase) {
+        this.knowledgeBase = knowledgeBase;
     }
 }

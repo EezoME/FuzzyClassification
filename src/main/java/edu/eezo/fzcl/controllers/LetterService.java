@@ -26,11 +26,12 @@ import java.util.stream.Stream;
  */
 @ManagedBean
 @ApplicationScoped
-public class LetterService {
-    private static final String LETTERS_FOLDER_PATH = "D:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
+public class LetterService implements Serializable {
+    private static final String LETTERS_FOLDER_PATH = "F:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
     private List<AdditionalTag> additionalTags;
     private List<LetterType> letterTypes;
     private Map<String, List<LetterType>> commonWords;
+    private Map<String, LetterType> mostUsedWordsByLetters;
 
     /**
      * Reads {@code info.json} file in letters directory.
@@ -127,21 +128,23 @@ public class LetterService {
      * @return a map of words and letters
      */
     public Map<String, LetterType> getMostUsedWordsByLetters() {
-        Map<String, LetterType> mostUsedWordsByLetters = new HashMap<>();
-        Set<String> allWords = getAllWords();
-        for (String word : allWords) {
-            int max = Integer.MIN_VALUE;
-            int index = -1;
-            for (int i = 0; i < letterTypes.size(); i++) {
-                if (!letterTypes.get(i).getContentAnalyzer().getWordsCounterFiltered().containsKey(word)) continue;
-                Integer number = letterTypes.get(i).getContentAnalyzer().getWordsCounterFiltered().get(word);
-                if (number > max) {
-                    max = number;
-                    index = i;
+        if (this.mostUsedWordsByLetters == null) {
+            this.mostUsedWordsByLetters = new HashMap<>();
+            Set<String> allWords = getAllWords();
+            for (String word : allWords) {
+                int max = Integer.MIN_VALUE;
+                int index = -1;
+                for (int i = 0; i < letterTypes.size(); i++) {
+                    if (!letterTypes.get(i).getContentAnalyzer().getWordsCounterFiltered().containsKey(word)) continue;
+                    Integer number = letterTypes.get(i).getContentAnalyzer().getWordsCounterFiltered().get(word);
+                    if (number > max) {
+                        max = number;
+                        index = i;
+                    }
                 }
-            }
-            if (index != -1) {
-                mostUsedWordsByLetters.put(word, letterTypes.get(index));
+                if (index != -1) {
+                    mostUsedWordsByLetters.put(word, letterTypes.get(index));
+                }
             }
         }
         return mostUsedWordsByLetters;

@@ -11,21 +11,21 @@ public class LetterType {
     private List<String> tags;
     private Map<String, String> localizedDescription;
     private List<AdditionalTag> additionalTags;
-    private ContentAnalizer contentAnalizer;
-    private int analizedNumber = 0;
+    private ContentAnalyzer contentAnalyzer;
+    private int analyzedNumber = 0;
 
     public LetterType() {
         this.tags = new ArrayList<>();
         this.localizedDescription = new HashMap<>();
         this.additionalTags = new ArrayList<>();
-        this.contentAnalizer = new ContentAnalizer();
+        this.contentAnalyzer = new ContentAnalyzer();
     }
 
     public LetterType(List<String> tags) {
         this.tags = tags;
         this.localizedDescription = new HashMap<>();
         this.additionalTags = new ArrayList<>();
-        this.contentAnalizer = new ContentAnalizer();
+        this.contentAnalyzer = new ContentAnalyzer();
     }
 
     public LetterType(String tag) {
@@ -33,7 +33,7 @@ public class LetterType {
         this.tags.add(tag);
         this.localizedDescription = new HashMap<>();
         this.additionalTags = new ArrayList<>();
-        this.contentAnalizer = new ContentAnalizer();
+        this.contentAnalyzer = new ContentAnalyzer();
     }
 
     public static String getSupportLocaleText(String locale) {
@@ -54,21 +54,21 @@ public class LetterType {
     }
 
     public void addLocalizedDescription(String localizedDescription) {
-        String[] splited = localizedDescription.split("=");
-        String locale = splited[0].trim();
+        String[] splitted = localizedDescription.split("=");
+        String locale = splitted[0].trim();
         for (String supportedLocale : SUPPORTED_LOCALES) {
             if (locale.equals(supportedLocale)) {
-                String description = splited[1].trim();
+                String description = splitted[1].trim();
                 this.localizedDescription.put(locale, description);
             }
         }
     }
 
     public void addAdditionalTags(String additionals, List<AdditionalTag> additionalTagList) {
-        String[] splitedTags = additionals.split(",");
+        String[] splittedTags = additionals.split(",");
         for (AdditionalTag additionalTag : additionalTagList) {
-            for (String splitedTag : splitedTags) {
-                if (additionalTag.getTagName().equals(splitedTag.trim())) {
+            for (String splittedTag : splittedTags) {
+                if (additionalTag.getTagName().equals(splittedTag.trim())) {
                     this.additionalTags.add(additionalTag);
                 }
             }
@@ -87,15 +87,15 @@ public class LetterType {
         return additionalTags;
     }
 
-    public ContentAnalizer getContentAnalizer() {
-        return contentAnalizer;
+    public ContentAnalyzer getContentAnalyzer() {
+        return contentAnalyzer;
     }
 
-    public int getAnalizedNumber() {
-        return analizedNumber;
+    public int getAnalyzedNumber() {
+        return analyzedNumber;
     }
 
-    public void incAnalizedNumber() {
-        this.analizedNumber++;
+    public void incAnalyzedNumber() {
+        this.analyzedNumber++;
     }
 }

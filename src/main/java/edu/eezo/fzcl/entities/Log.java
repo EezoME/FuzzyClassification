@@ -8,8 +8,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
+ * Класс логирования событий приложения.
+ *
  * @author eezo33
- *         Класс логирования событий приложения.
  */
 @Entity
 public class Log implements Serializable {
@@ -23,7 +24,8 @@ public class Log implements Serializable {
     private Exception errorType;
     private LoggerLevel loggerLevel;
 
-    public Log() {}
+    public Log() {
+    }
 
     public Log(String text) {
         this.text = text;

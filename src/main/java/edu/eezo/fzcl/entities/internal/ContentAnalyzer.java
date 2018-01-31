@@ -2,32 +2,30 @@ package edu.eezo.fzcl.entities.internal;
 
 import java.util.*;
 
-public class ContentAnalizer {
+public class ContentAnalyzer {
     private Map<String, Integer> wordsCounter;
     private Map<String, Integer> wordsCounterFiltered;
     private Set<String> uniqueWords;
 
-    public ContentAnalizer() {
+    ContentAnalyzer() {
         this.wordsCounter = new HashMap<>();
         this.uniqueWords = new HashSet<>();
     }
 
     // TODO: найти более подходяшие примеры писем
     // TODO: найти способ выделять однокоренные слова
-    // TODO: найти уникальные слова для каждого типа письма
-    // TODO: найти общие слова для нескольких/всех типов писем
 
     /**
-     * Analizes words in line.<br/>
+     * Analyzes words in line.<br/>
      * This method avoid words with length less than 4 characters and
      * with non-alphabetic character (EN, RU, UA chars counts).
      *
      * @param line a line to analyze
      */
-    public void analizeString(String line) {
+    public void analyzeString(String line) {
         line = line.toLowerCase();
-        String[] splited = line.split("\\s|\\.|/|\\?|!|,|;|\\(|\\)|:");
-        for (String word : splited) {
+        String[] splitted = line.split("\\s|\\.|/|\\?|!|,|;|\\(|\\)|:");
+        for (String word : splitted) {
             if (word.length() < 4) continue;
             if (word.matches("[^а-яa-zіёї-]+")) continue;
             if (wordsCounter.containsKey(word)) {
@@ -55,7 +53,12 @@ public class ContentAnalizer {
         return this.wordsCounterFiltered;
     }
 
-    public Set<String> getNonUniqueWords() {
+    /**
+     * Returns a asymmetric set difference of the two sets: {@link #wordsCounterFiltered} and {@link #uniqueWords}.
+     *
+     * @return a set of not unique words
+     */
+    public Set<String> getNotUniqueWords() {
         Set<String> allWords = new HashSet<>(wordsCounterFiltered.keySet());
         allWords.removeAll(uniqueWords);
         return allWords;

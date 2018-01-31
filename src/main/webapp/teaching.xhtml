@@ -26,7 +26,7 @@
                         <ui:repeat value="#{letterType.tags}" var="tag">
                             #{tag}<br/>
                         </ui:repeat>
-                        [Letters in set: #{letterType.analizedNumber}]<br/>
+                        [Letters in set: #{letterType.analyzedNumber}]<br/>
                     </p:column>
 
                     <p:column headerText="Description">
@@ -44,25 +44,26 @@
                     <c:set var="mostUsedWords" value="#{teachingController.service.mostUsedWordsByLetters}"/>
                     <p:column
                             headerText="Possible keywords&lt;br/&gt;&lt;span style='font-size: smaller'&gt;every word with 4+ letters&lt;/span&gt;">
-                        <h:outputText id="no-unique" rendered="#{letterType.contentAnalizer.uniqueWords.isEmpty()}"
+                        <h:outputText id="no-unique" rendered="#{letterType.contentAnalyzer.uniqueWords.isEmpty()}"
                                       styleClass="no-unique-message" value="Letter has no unique words."/>
-                        <h:outputText id="unique-count" rendered="#{!letterType.contentAnalizer.uniqueWords.isEmpty()}"
+                        <h:outputText id="unique-count" rendered="#{!letterType.contentAnalyzer.uniqueWords.isEmpty()}"
                                       styleClass="no-unique-message"
-                                      value="Unique words: #{letterType.contentAnalizer.uniqueWords.size()} / total: #{letterType.contentAnalizer.wordsCounterFiltered.size()}"/><br/>
-                        <ui:repeat value="#{letterType.contentAnalizer.getWordsCounterFiltered().keySet().toArray()}"
+                                      value="Unique words: #{letterType.contentAnalyzer.uniqueWords.size()} / total: #{letterType.contentAnalyzer.wordsCounterFiltered.size()}"/><br/>
+                        <ui:repeat value="#{letterType.contentAnalyzer.getWordsCounterFiltered().keySet().toArray()}"
                                    var="word">
-                            <c:set value="#{letterType.contentAnalizer.uniqueWords.contains(word)}" var="isUnique"/>
-                            <c:set value="#{mostUsedWords.containsKey(word) and mostUsedWords.get(word).equals(letterType)}" var="isMostUsed"/>
+                            <c:set value="#{letterType.contentAnalyzer.uniqueWords.contains(word)}" var="isUnique"/>
+                            <c:set value="#{mostUsedWords.containsKey(word) and mostUsedWords.get(word).equals(letterType)}"
+                                   var="isMostUsed"/>
                             <h:outputText
                                     rendered="#{isMostUsed and !isUnique}"
                                     styleClass="most-used" title="most used word"
-                                    value="#{word}: #{letterType.contentAnalizer.wordsCounter.get(word)}"/>
+                                    value="#{word}: #{letterType.contentAnalyzer.wordsCounter.get(word)}"/>
                             <h:outputText
                                     rendered="#{isUnique}"
                                     styleClass="unique" title="unique word"
-                                    value="#{word}: #{letterType.contentAnalizer.wordsCounter.get(word)}"/>
+                                    value="#{word}: #{letterType.contentAnalyzer.wordsCounter.get(word)}"/>
                             <h:outputText rendered="#{!isUnique and !isMostUsed}"
-                                          value="#{word}: #{letterType.contentAnalizer.wordsCounter.get(word)}"/>
+                                          value="#{word}: #{letterType.contentAnalyzer.wordsCounter.get(word)}"/>
                             <br/>
                         </ui:repeat>
                     </p:column>

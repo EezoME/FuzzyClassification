@@ -3,6 +3,7 @@ package edu.eezo.fzcl.controllers;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import edu.eezo.fzcl.entities.internal.AdditionalTag;
+import edu.eezo.fzcl.entities.internal.ContentAnalyzer;
 import edu.eezo.fzcl.entities.internal.LetterType;
 
 import javax.faces.bean.ApplicationScoped;
@@ -20,13 +21,13 @@ import java.util.stream.Stream;
  * Metadata-read mode is set by default.</p>
  * <p id='content-read-mode'>Metadata-read mode reads head of file to identify letter type and additional info.</p>
  * <p name='content-read-mode'>Content-read mode sets on by the first semicolon(;).
- * Content-read mode activates {@link edu.eezo.fzcl.entities.internal.ContentAnalizer} to count words in letters.<br/>
+ * Content-read mode activates {@link ContentAnalyzer} to count words in letters.<br/>
  * Second and subsequent semicolons just separate different letters in file.</p>
  */
 @ManagedBean
 @ApplicationScoped
 public class LetterService {
-    private static final String LETTERS_FOLDER_PATH = "F:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
+    private static final String LETTERS_FOLDER_PATH = "D:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
     private List<AdditionalTag> additionalTags;
     private List<LetterType> letterTypes;
     private Map<String, List<LetterType>> commonWords;
@@ -76,23 +77,29 @@ public class LetterService {
         }
     }
 
+    /**
+     * Searches and sets a set of unique words in each letter.
+     */
     public void searchForUniqueWords() {
         for (LetterType letterType : letterTypes) {
-            Set<String> filteredWords = new HashSet<>(letterType.getContentAnalizer().getWordsCounterFiltered().keySet());
+            Set<String> filteredWords = new HashSet<>(letterType.getContentAnalyzer().getWordsCounterFiltered().keySet());
 
             for (LetterType letterType1 : letterTypes) {
                 if (letterType.equals(letterType1)) continue;
-                Set<String> filteredWordsCompared = letterType1.getContentAnalizer().getWordsCounterFiltered().keySet();
+                Set<String> filteredWordsCompared = letterType1.getContentAnalyzer().getWordsCounterFiltered().keySet();
                 filteredWords.removeAll(filteredWordsCompared);
             }
-            letterType.getContentAnalizer().setUniqueWords(filteredWords);
+            letterType.getContentAnalyzer().setUniqueWords(filteredWords);
         }
     }
 
+    /**
+     * Searches and sets common words in letters into map.
+     */
     public void searchForCommonWords() {
         this.commonWords = new HashMap<>();
         for (LetterType firstCircleLetter : letterTypes) {
-            Set<String> firstCircleNonUniqueWords = firstCircleLetter.getContentAnalizer().getNonUniqueWords();
+            Set<String> firstCircleNonUniqueWords = firstCircleLetter.getContentAnalyzer().getNotUniqueWords();
 
             for (String firstCircleNonUniqueWord : firstCircleNonUniqueWords) {
                 if (this.commonWords.keySet().contains(firstCircleNonUniqueWord)) continue;
@@ -101,7 +108,7 @@ public class LetterService {
 
                 for (LetterType secondCircleLetter : letterTypes) {
                     if (firstCircleLetter.equals(secondCircleLetter)) continue;
-                    Set<String> secondCircleNonUniqueWords = secondCircleLetter.getContentAnalizer().getNonUniqueWords();
+                    Set<String> secondCircleNonUniqueWords = secondCircleLetter.getContentAnalyzer().getNotUniqueWords();
 
                     for (String secondCircleNonUniqueWord : secondCircleNonUniqueWords) {
                         if (firstCircleNonUniqueWord.equalsIgnoreCase(secondCircleNonUniqueWord)) {
@@ -114,6 +121,11 @@ public class LetterService {
         }
     }
 
+    /**
+     * Searches and returns a map of words and letters, where they are used most.
+     *
+     * @return a map of words and letters
+     */
     public Map<String, LetterType> getMostUsedWordsByLetters() {
         Map<String, LetterType> mostUsedWordsByLetters = new HashMap<>();
         Set<String> allWords = getAllWords();
@@ -121,8 +133,8 @@ public class LetterService {
             int max = Integer.MIN_VALUE;
             int index = -1;
             for (int i = 0; i < letterTypes.size(); i++) {
-                if (!letterTypes.get(i).getContentAnalizer().getWordsCounterFiltered().containsKey(word)) continue;
-                Integer number = letterTypes.get(i).getContentAnalizer().getWordsCounterFiltered().get(word);
+                if (!letterTypes.get(i).getContentAnalyzer().getWordsCounterFiltered().containsKey(word)) continue;
+                Integer number = letterTypes.get(i).getContentAnalyzer().getWordsCounterFiltered().get(word);
                 if (number > max) {
                     max = number;
                     index = i;
@@ -170,7 +182,7 @@ public class LetterService {
                 if (line.trim().isEmpty()) continue;
                 if (!isInContentReadMode) { // Metadata-Read Mode
                     if (line.startsWith(";")) { // switch Content-Read Mode
-                        letterType.incAnalizedNumber();
+                        letterType.incAnalyzedNumber();
                         isInContentReadMode = true;
                         continue;
                     }
@@ -187,10 +199,10 @@ public class LetterService {
                     }
                 } else { // Content-Read Mode
                     if (line.startsWith(";")) {
-                        letterType.incAnalizedNumber();
+                        letterType.incAnalyzedNumber();
                         continue;
                     }
-                    letterType.getContentAnalizer().analizeString(line);
+                    letterType.getContentAnalyzer().analyzeString(line);
                 }
             }
             this.letterTypes.add(letterType);
@@ -199,10 +211,15 @@ public class LetterService {
         }
     }
 
+    /**
+     * Searches and returns a set of all words from all analyzed letters.
+     *
+     * @return returns a set of all words
+     */
     private Set<String> getAllWords() {
         Set<String> allWords = new HashSet<>();
         for (LetterType letterType : letterTypes) {
-            allWords.addAll(letterType.getContentAnalizer().getWordsCounterFiltered().keySet());
+            allWords.addAll(letterType.getContentAnalyzer().getWordsCounterFiltered().keySet());
         }
         return allWords;
     }

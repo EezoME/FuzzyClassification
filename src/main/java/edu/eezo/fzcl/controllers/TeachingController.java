@@ -24,7 +24,7 @@ public class TeachingController implements Serializable {
         letterService.readLetterTypes();
         letterService.searchForUniqueWords();
         letterService.searchForCommonWords();
-        knowledgeBase.initLettersRanges(letterService.getLetterTypes());
+        knowledgeBase.initLettersRanges();
         knowledgeBase.initWordsWeights(letterService.getLetterTypes(), letterService.getMostUsedWordsByLetters());
     }
 

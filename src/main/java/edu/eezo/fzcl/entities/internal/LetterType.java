@@ -12,6 +12,7 @@ public class LetterType {
     private Map<String, String> localizedDescription;
     private List<AdditionalTag> additionalTags;
     private ContentAnalyzer contentAnalyzer;
+    private Range range;
     private int analyzedNumber = 0;
 
     public LetterType() {
@@ -47,8 +48,8 @@ public class LetterType {
 
 
     public void addTag(String tag) {
-        String[] splitedTags = tag.split(",");
-        for (String singleTag : splitedTags) {
+        String[] splittedTags = tag.split(",");
+        for (String singleTag : splittedTags) {
             this.tags.add(singleTag.trim());
         }
     }
@@ -93,6 +94,14 @@ public class LetterType {
 
     public int getAnalyzedNumber() {
         return analyzedNumber;
+    }
+
+    public Range getRange() {
+        return range;
+    }
+
+    public void setRange(Range range) {
+        this.range = range;
     }
 
     public void incAnalyzedNumber() {

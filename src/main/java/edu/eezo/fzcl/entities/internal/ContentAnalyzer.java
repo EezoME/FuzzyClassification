@@ -31,10 +31,10 @@ public class ContentAnalyzer {
      */
     public void analyzeString(String line) {
         line = line.toLowerCase();
-        String[] splitted = line.split("\\s|\\.|/|\\?|!|,|;|\\(|\\)|:");
+        String[] splitted = line.split("\\s|\\.|/|\\?|!|,|;|\\(|\\)|:|-");
         for (String word : splitted) {
             if (word.length() < 4) continue;
-            if (word.matches("[^а-яa-zіёї-]+")) continue;
+            if (word.matches("[^а-яa-zіёї]+")) continue;
             if (wordsCounter.containsKey(word)) {
                 wordsCounter.put(word, wordsCounter.get(word) + 1);
             } else {

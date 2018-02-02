@@ -178,11 +178,12 @@ public class LetterService implements Serializable {
     private void readAndParseLetterTypeFile(Path path) {
         if (!path.toString().contains(".txt")) return;
         try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(path.toFile()), "UTF-8"))) {
-            String line = null;
+            String line;
             LetterType letterType = new LetterType();
             boolean isInContentReadMode = false; // default is Metadata-Read Mode
             while ((line = br.readLine()) != null) {
                 if (line.trim().isEmpty()) continue;
+                line = line.toLowerCase();
                 if (!isInContentReadMode) { // Metadata-Read Mode
                     if (line.startsWith(";")) { // switch Content-Read Mode
                         letterType.incAnalyzedNumber();

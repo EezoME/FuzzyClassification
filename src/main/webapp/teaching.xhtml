@@ -18,9 +18,10 @@
     <div class="main">
         <p:panel id="basic" header="Letters Investigation">
             <h:form>
+                <h:inputFile />
                 <h:commandLink action="#{teachingController.init()}" value="Rerun" update="rerunnable"/>
             </h:form>
-            <h:panelGrid columns="2" id="rerunnable">
+            <h:panelGrid columns="1" id="rerunnable">
                 <p:dataTable var="letterType" value="#{teachingController.letterService.letterTypes}" stickyHeader="true">
                     <f:facet name="header">
                         Letters summary
@@ -95,7 +96,7 @@
                         #{letter}<br/>
                     </p:column>
                     <p:column headerText="Range">
-                        #{teachingController.knowledgeBase.lettersRanges.get(letter)}<br/>
+                        #{teachingController.knowledgeBase.lettersRanges.get(letter).toFullString()}<br/>
                     </p:column>
                 </p:dataTable>
                 <p:dataTable var="aWord" value="#{teachingController.knowledgeBase.wordsWeights.keySet().toArray()}">

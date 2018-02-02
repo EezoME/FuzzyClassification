@@ -1,8 +1,11 @@
 package edu.eezo.fzcl.fuzzyInference;
 
+import edu.eezo.fzcl.controllers.LetterService;
 import edu.eezo.fzcl.entities.internal.LetterType;
+import edu.eezo.fzcl.entities.internal.Range;
 
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
 import java.util.*;
@@ -13,16 +16,20 @@ import java.util.*;
 @ManagedBean
 @SessionScoped
 public class KnowledgeBase implements Serializable {
-    private Map<LetterType, Range> lettersRanges;
+    @ManagedProperty("#{letterService}")
+    private LetterService letterService;
     private Map<String, List<Range>> wordsWeights;
+
+    public void initLettersRanges() {
+        initLettersRanges(this.letterService.getLetterTypes());
+    }
 
     public void initLettersRanges(List<LetterType> allLetters) {
         if (allLetters == null) return;
-        this.lettersRanges = new HashMap<>();
         int startPoint = 0;
         int endPoint = 99;
         for (LetterType letter : allLetters) {
-            this.lettersRanges.put(letter, new Range(startPoint, endPoint));
+            letter.setRange(new Range(startPoint, endPoint));
             startPoint += 100;
             endPoint += 100;
         }
@@ -37,11 +44,11 @@ public class KnowledgeBase implements Serializable {
             Set<String> uniqueWordsSet = letterType.getContentAnalyzer().getUniqueWords();
             for (String ordinaryWord : ordinaryWordsSet) {
                 if (uniqueWordsSet.contains(ordinaryWord)) {
-                    addRangeToWord(ordinaryWord, this.lettersRanges.get(letterType).getHighSubrange());
+                    addRangeToWord(ordinaryWord, letterType.getRange().getHighSubrange());
                 } else if (mostUsedWordsSet.contains(ordinaryWord) && letterType.equals(mostUsedWordsMap.get(ordinaryWord))) {
-                    addRangeToWord(ordinaryWord, this.lettersRanges.get(letterType).getMiddleSubrange());
+                    addRangeToWord(ordinaryWord, letterType.getRange().getMiddleSubrange());
                 } else {
-                    addRangeToWord(ordinaryWord, this.lettersRanges.get(letterType).getLowSubrange());
+                    addRangeToWord(ordinaryWord, letterType.getRange().getLowSubrange());
                 }
             }
         }
@@ -58,6 +65,10 @@ public class KnowledgeBase implements Serializable {
     }
 
     public Map<LetterType, Range> getLettersRanges() {
+        Map<LetterType, Range> lettersRanges = new HashMap<>();
+        for (LetterType letterType : letterService.getLetterTypes()) {
+            lettersRanges.put(letterType, letterType.getRange());
+        }
         return lettersRanges;
     }
 
@@ -65,48 +76,11 @@ public class KnowledgeBase implements Serializable {
         return wordsWeights;
     }
 
-    class Range {
-        private int startPoint;
-        private int endPoint;
+    public LetterService getLetterService() {
+        return letterService;
+    }
 
-        public Range(int startPoint, int endPoint) {
-            if (startPoint >= endPoint) return;
-            this.startPoint = startPoint;
-            this.endPoint = endPoint;
-        }
-
-        public Range getLowSubrange() {
-            if (!isCorrect()) return null;
-            int localInterval = this.endPoint - this.startPoint + 1;
-            int high = (int) (localInterval * 0.5);
-            return new Range(this.startPoint, this.startPoint + high);
-        }
-
-        public Range getMiddleSubrange() {
-            if (!isCorrect()) return null;
-            int localInterval = this.endPoint - this.startPoint + 1;
-            int low = (int) (localInterval * 0.25);
-            int high = (int) (localInterval * 0.75);
-            return new Range(this.startPoint + low, this.startPoint + high);
-        }
-
-        public Range getHighSubrange() {
-            if (!isCorrect()) return null;
-            int localInterval = this.endPoint - this.startPoint + 1;
-            int low = (int) (localInterval * 0.5);
-            return new Range(this.startPoint + low, this.endPoint);
-        }
-
-        private boolean isCorrect() {
-            return this.startPoint < this.endPoint;
-        }
-
-        @Override
-        public String toString() {
-            return "Range{" +
-                    "startPoint=" + startPoint +
-                    ", endPoint=" + endPoint +
-                    '}';
-        }
+    public void setLetterService(LetterService letterService) {
+        this.letterService = letterService;
     }
 }

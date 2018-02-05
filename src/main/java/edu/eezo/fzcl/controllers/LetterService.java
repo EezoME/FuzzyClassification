@@ -5,6 +5,7 @@ import com.google.gson.JsonSyntaxException;
 import edu.eezo.fzcl.entities.internal.AdditionalTag;
 import edu.eezo.fzcl.entities.internal.ContentAnalyzer;
 import edu.eezo.fzcl.entities.internal.LetterType;
+import edu.eezo.fzcl.entities.internal.Range;
 
 import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
@@ -27,7 +28,7 @@ import java.util.stream.Stream;
 @ManagedBean
 @ApplicationScoped
 public class LetterService implements Serializable {
-    private static final String LETTERS_FOLDER_PATH = "F:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
+    private static final String LETTERS_FOLDER_PATH = "D:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
     private List<AdditionalTag> additionalTags;
     private List<LetterType> letterTypes;
     private Map<String, List<LetterType>> commonWords;
@@ -148,6 +149,15 @@ public class LetterService implements Serializable {
             }
         }
         return mostUsedWordsByLetters;
+    }
+
+    public LetterType identifyLTByRange(Range range) {
+        for (LetterType letterType : this.letterTypes) {
+            if (letterType.isLTContainsRange(range)) {
+                return letterType;
+            }
+        }
+        return null;
     }
 
     public List<AdditionalTag> getAdditionalTags() {

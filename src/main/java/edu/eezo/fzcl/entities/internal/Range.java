@@ -58,6 +58,26 @@ public class Range {
         return this.startPoint < this.endPoint;
     }
 
+    public boolean isSuperRangeOf(Range range) {
+        return this.startPoint <= range.startPoint && this.endPoint >= range.endPoint;
+    }
+
+    public Double getRangePossibility(Range subrange){
+        if (subrange == null) {
+            return 0.0d;
+        }
+        if (this.lowSubrange[0] == subrange.startPoint && this.lowSubrange[1] == subrange.endPoint) {
+            return 25d;
+        }
+        if (this.mediumSubrange[0] == subrange.startPoint && this.mediumSubrange[1] == subrange.endPoint) {
+            return 50d;
+        }
+        if (this.highSubrange[0] == subrange.startPoint && this.highSubrange[1] == subrange.endPoint) {
+            return 75d;
+        }
+        return 0.0d;
+    }
+
     public String toFullString() {
         return "Range{" +
                 "startPoint=" + startPoint +

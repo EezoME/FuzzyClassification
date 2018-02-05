@@ -3,7 +3,8 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
-      xmlns:p="http://primefaces.org/ui" xmlns:c="http://java.sun.com/jsp/jstl/core">
+      xmlns:p="http://primefaces.org/ui" xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:comp="http://java.sun.com/jsf/composite/comp" xmlns:ui="http://java.sun.com/jsf/facelets">
 <h:head>
     <title>#{indexController.titlePrefix}</title>
     <!--<c:if test="#{userController.entered}">-->
@@ -13,12 +14,28 @@
     <!--<h:outputStylesheet library="css" name="index.css"/>-->
 </h:head>
 <h:body>
+    <comp:head/>
     <p:growl autoUpdate="true"/>
-    <div>
-        <ul>
-            <li><a href="teaching.xhtml">Страница обучения</a></li>
-            <li><a href="#"></a></li>
-        </ul>
+    <div class="main">
+        <h:form>
+            <h:inputFile id="file" value="#{classificationController.file}" validator="#{classificationController.validateFile}" />
+            <h:outputText value="or paste a letter text in fields below" />
+            <h:inputTextarea rows="6" cols="15" styleClass="unresizable" />
+            <h:commandButton value="Classificate" />
+        </h:form>
+        <div>
+            <h:form>
+                The letter relates to the type: <h:outputText value="" id="classified-letter-type" /><br/>
+                <h:commandButton value="Accept" action="#" />
+                <h:commandButton value="Edit" action="#" />
+                <h:panelGrid columns="2">
+                    <h:outputText value="Select proper type:" />
+                    <ui:repeat value="#" var="">
+                        //
+                    </ui:repeat>
+                </h:panelGrid>
+            </h:form>
+        </div>
     </div>
 </h:body>
 </html>

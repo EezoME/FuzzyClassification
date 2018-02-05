@@ -76,6 +76,14 @@ public class LetterType {
         }
     }
 
+    public boolean isLTContainsRange(Range range) {
+        return this.range.isSuperRangeOf(range);
+    }
+
+    public Double getSubrangePossibility(Range subrange) {
+        return this.range.getRangePossibility(subrange);
+    }
+
     public List<String> getTags() {
         return tags;
     }

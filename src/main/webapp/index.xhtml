@@ -17,19 +17,23 @@
     <comp:head/>
     <p:growl autoUpdate="true"/>
     <div class="main">
-        <h:form>
-            <h:inputFile id="file" value="#{classificationController.file}" validator="#{classificationController.validateFile}" />
-            <h:outputText value="or paste a letter text in fields below" />
-            <h:inputTextarea rows="6" cols="15" styleClass="unresizable" />
-            <h:commandButton value="Classificate" />
+        <h:form id="letter-form">
+            <h:inputFile id="file" value="#{classificationController.file}"
+                         validator="#{classificationController.validateFile}"/>
+            <h:outputText value="or paste a letter text in fields below"/>
+            <h:inputTextarea name="letter-textfield" id="letter-textfield" rows="6" cols="15" styleClass="unresizable"/>
+            <h:commandButton value="Classificate"
+                             actionListener="#{classificationController.classificateActionListener}"
+                             update="classificated"/>
         </h:form>
         <div>
-            <h:form>
-                The letter relates to the type: <h:outputText value="" id="classified-letter-type" /><br/>
-                <h:commandButton value="Accept" action="#" />
-                <h:commandButton value="Edit" action="#" />
+            <h:form id="classificated">
+                The letter relates to the type: <h:outputText
+                    value="#{classificationController.getMostPossibleLetterType()}" id="classified-letter-type"/><br/>
+                <h:commandButton value="Accept" action="#"/>
+                <h:commandButton value="Edit" action="#"/>
                 <h:panelGrid columns="2">
-                    <h:outputText value="Select proper type:" />
+                    <h:outputText value="Select proper type:"/>
                     <ui:repeat value="#" var="">
                         //
                     </ui:repeat>

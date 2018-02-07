@@ -4,9 +4,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:p="http://primefaces.org/ui" xmlns:c="http://java.sun.com/jsp/jstl/core"
-      xmlns:comp="http://java.sun.com/jsf/composite/comp" xmlns:ui="http://java.sun.com/jsf/facelets">
+      xmlns:comp="http://java.sun.com/jsf/composite/comp" xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
 <h:head>
     <title>#{indexController.titlePrefix}</title>
+    <meta content="text/html; charset=utf-8"/>
     <!--<c:if test="#{userController.entered}">-->
     <!--<meta http-equiv="refresh" content="0; url=home.xhtml"/>-->
     <!--</c:if>-->
@@ -17,27 +19,48 @@
     <comp:head/>
     <p:growl autoUpdate="true"/>
     <div class="main">
-        <h:form id="letter-form">
+        <h:form id="letter-form" enctype="multipart/form-data" acceptcharset="utf-8">
             <h:inputFile id="file" value="#{classificationController.file}"
                          validator="#{classificationController.validateFile}"/>
             <h:outputText value="or paste a letter text in fields below"/>
-            <h:inputTextarea name="letter-textfield" id="letter-textfield" rows="6" cols="15" styleClass="unresizable"/>
-            <h:commandButton value="Classificate"
-                             actionListener="#{classificationController.classificateActionListener}"
-                             update="classificated"/>
+            <h:inputTextarea name="letter-textfield" id="letter-textfield" rows="16" cols="50"
+                             styleClass="unresizable"/>
+            <h:commandButton value="Classificate" update="classificated"
+                             actionListener="#{classificationController.classificateActionListener}">
+            </h:commandButton>
         </h:form>
         <div>
-            <h:form id="classificated">
+            <h:form id="classificated" acceptcharset="utf-8" rendered="#{classificationController.classificated}">
+                <c:set value="#{classificationController.getMostPossibleLetterType()}" var="mostPossible"/>
                 The letter relates to the type: <h:outputText
-                    value="#{classificationController.getMostPossibleLetterType()}" id="classified-letter-type"/><br/>
+                    value="#{mostPossible}" id="classified-letter-type"/><br/>
                 <h:commandButton value="Accept" action="#"/>
                 <h:commandButton value="Edit" action="#"/>
-                <h:panelGrid columns="2">
-                    <h:outputText value="Select proper type:"/>
-                    <ui:repeat value="#" var="">
-                        //
-                    </ui:repeat>
-                </h:panelGrid>
+                <h:outputText value="Select proper type:"/>
+                <ui:repeat value="#{classificationController.classificationResults.keySet().toArray()}"
+                           var="letterType">
+                    <h:panelGrid columns="5" rendered="#{letterType.tags.get(0).equals(mostPossible)}">
+                        <h:outputText value="#{letterType}" style="color: red;"/>:
+                        <h:outputText value="#{classificationController.classificationResults.get(letterType)}"
+                                      style="color: red;">
+                            <f:convertNumber pattern="#0.00"/>
+                        </h:outputText> |
+                        <h:outputText style="color: red;"
+                                      value="#{classificationController.normalizedClassificationResults.get(letterType)}">
+                            <f:convertNumber pattern="#0.00"/>
+                        </h:outputText>
+                    </h:panelGrid>
+                    <h:panelGrid columns="5" rendered="#{!letterType.tags.get(0).equals(mostPossible)}">
+                        <h:outputText value="#{letterType}"/>:
+                        <h:outputText value="#{classificationController.classificationResults.get(letterType)}">
+                            <f:convertNumber pattern="#0.00"/>
+                        </h:outputText> |
+                        <h:outputText
+                                value="#{classificationController.normalizedClassificationResults.get(letterType)}">
+                            <f:convertNumber pattern="#0.00"/>
+                        </h:outputText>
+                    </h:panelGrid>
+                </ui:repeat>
             </h:form>
         </div>
     </div>

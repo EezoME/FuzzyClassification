@@ -28,7 +28,7 @@ import java.util.stream.Stream;
 @ManagedBean
 @ApplicationScoped
 public class LetterService implements Serializable {
-    private static final String LETTERS_FOLDER_PATH = "D:\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
+    private static final String LETTERS_FOLDER_PATH = "E:\\EDU\\Fuzzy Classification\\src\\main\\webapp\\resources\\letters\\";
     private List<AdditionalTag> additionalTags;
     private List<LetterType> letterTypes;
     private Map<String, List<LetterType>> commonWords;

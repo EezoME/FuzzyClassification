@@ -81,6 +81,7 @@ public class KnowledgeBase implements Serializable {
         }
         for (String word : wordsSet) {
             List<Range> wordSubranges = this.wordsWeights.get(word);
+            if (wordSubranges == null) continue;
             for (Range subrange : wordSubranges) {
                 LetterType letterType = letterService.identifyLTByRange(subrange);
                 if (letterType == null) {

@@ -16,6 +16,9 @@ public class Range {
         if (startPoint >= endPoint) return;
         this.startPoint = startPoint;
         this.endPoint = endPoint;
+        getLowSubrange();
+        getMiddleSubrange();
+        getHighSubrange();
     }
 
     private Range(int[] subrange) {

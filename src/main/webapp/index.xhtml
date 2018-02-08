@@ -32,11 +32,14 @@
         <div>
             <h:form id="classificated" acceptcharset="utf-8" rendered="#{classificationController.classificated}">
                 <c:set value="#{classificationController.getMostPossibleLetterType()}" var="mostPossible"/>
-                The letter relates to the type: <h:outputText
-                    value="#{mostPossible}" id="classified-letter-type"/><br/>
-                <h:commandButton value="Accept" action="#"/>
-                <h:commandButton value="Edit" action="#"/>
-                <h:outputText value="Select proper type:"/>
+                The letter relates to the type: <h:outputText value="#{mostPossible}" id="classified-letter-type"/><br/>
+                <h:commandButton value="Accept" action="index.xhtml"/>
+                or select right letter type from list and preee 'Adjust decision'
+                <h:selectOneMenu rendered="true" id="manual-selected-letter-type" value="ssss">
+                    <f:selectItems value="#{classificationController.classificationResults.keySet().toArray()}" var="letter" itemLabel="#{letter.tags.get(0)}"
+                                   itemValue="#{letter}" />
+                </h:selectOneMenu>
+                <h:commandButton value="Adjust decision" action="#{classificationController.adjustDecision()}"/>
                 <ui:repeat value="#{classificationController.classificationResults.keySet().toArray()}"
                            var="letterType">
                     <h:panelGrid columns="5" rendered="#{letterType.tags.get(0).equals(mostPossible)}">

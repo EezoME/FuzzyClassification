@@ -12,7 +12,6 @@ import javax.faces.context.FacesContext;
 import javax.faces.validator.ValidatorException;
 import javax.servlet.http.Part;
 import java.io.*;
-import java.nio.file.Path;
 import java.util.*;
 
 @ManagedBean
@@ -23,7 +22,6 @@ public class ClassificationController implements Serializable {
     @ManagedProperty("#{teachingController}")
     private TeachingController teachingController;
     private Part file;
-    private String fileContent;
     private Map<LetterType, Double> classificationResults;
     private Map<LetterType, Double> normalizedClassificationResults;
     private boolean isClassificated = false;
@@ -42,8 +40,8 @@ public class ClassificationController implements Serializable {
         } else {
             System.out.println("Read from file.");
             try {
-                this.fileContent = new Scanner(file.getInputStream(), "UTF-8").useDelimiter("\\A\\n\\r").next();
-                this.classificationResults = this.knowledgeBase.classificate(this.fileContent);
+                String fileContent = new Scanner(file.getInputStream(), "UTF-8").useDelimiter("\\A\\n\\r").next();
+                this.classificationResults = this.knowledgeBase.classificate(fileContent);
                 normalizeClassificationResult();
             } catch (IOException e) {
                 // Error handling
@@ -80,18 +78,47 @@ public class ClassificationController implements Serializable {
         return mostPossibleLetterType.getTags().get(0);
     }
 
-    public void normalizeClassificationResult(){
+    public String adjustDecision() {
+        Map<String, String> params = FacesContext.getCurrentInstance().getExternalContext().getRequestParameterMap();
+        String adjustedLetterType = params.get("classificated:manual-selected-letter-type");
+        LetterType adjustedLT = null;
+        for (LetterType letterType : teachingController.getLetterService().getLetterTypes()) {
+            if (letterType.getTags().get(0).equals(adjustedLetterType)) {
+                adjustedLT = letterType;
+            }
+        }
+        if (adjustedLT == null) return "";
+
+        String letterTextareaContent = params.get("letter-form:letter-textfield").trim();
+        if (this.file == null && letterTextareaContent.isEmpty()) {
+            IndexController.showMessage("Letter text is not set.");
+            return "";
+        }
+        if (!letterTextareaContent.isEmpty()) {
+            adjustedLT.getContentAnalyzer().analyzeString(letterTextareaContent);
+        } else {
+            try {
+                String fileContent = new Scanner(file.getInputStream(), "UTF-8").useDelimiter("\\A\\n\\r").next();
+                adjustedLT.getContentAnalyzer().analyzeString(fileContent);
+            } catch (IOException e) {
+                // Error handling
+            }
+        }
+        return "";
+    }
+
+    private void normalizeClassificationResult() {
         this.normalizedClassificationResults = new HashMap<>(this.classificationResults);
         double sum = 0;
         int nonZeroCounter = 0;
-        for (LetterType letterType : this.classificationResults.keySet()){
+        for (LetterType letterType : this.classificationResults.keySet()) {
             double value = this.classificationResults.get(letterType);
             if (Double.compare(value, 0.0d) != 0) {
                 nonZeroCounter++;
             }
             sum += value;
         }
-        for (LetterType letterType : this.normalizedClassificationResults.keySet()){
+        for (LetterType letterType : this.normalizedClassificationResults.keySet()) {
             this.normalizedClassificationResults.put(letterType, this.classificationResults.get(letterType) / sum);
         }
     }

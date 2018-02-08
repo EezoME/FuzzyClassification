@@ -1,0 +1,18 @@
+.header {
+    height: 30px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #000;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__list-item {
+    line-height: 1.2;
+}
+
+.header__list-item:hover {
+    border-bottom: 1px solid black;
+}

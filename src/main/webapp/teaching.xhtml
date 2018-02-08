@@ -12,6 +12,8 @@
     <!--<meta http-equiv="refresh" content="0; url=home.xhtml"/>-->
     <!--</c:if>-->
     <script src="https://use.fontawesome.com/51d1b53670.js" type="application/javascript"/>
+    <h:outputStylesheet library="css" name="head.css"/>
+    <h:outputStylesheet library="css" name="commons.css"/>
     <h:outputStylesheet library="css" name="teaching-page.css"/>
 </h:head>
 <h:body>
@@ -19,12 +21,9 @@
     <p:growl autoUpdate="true"/>
     <div class="main">
         <p:panel id="basic" header="Letters Investigation">
-            <h:form>
-                <h:inputText a:placeholder="absolute path"/> or insert letter text into textarea below
-                <h:commandLink action="#{teachingController.init()}" value="Rerun" update="rerunnable"/>
-            </h:form>
             <h:panelGrid columns="1" id="rerunnable">
-                <p:dataTable var="letterType" value="#{teachingController.letterService.letterTypes}" stickyHeader="true">
+                <p:dataTable var="letterType" value="#{teachingController.letterService.letterTypes}"
+                             stickyHeader="true">
                     <f:facet name="header">
                         Letters summary
                     </f:facet>
@@ -75,7 +74,8 @@
                     </p:column>
                 </p:dataTable>
                 <!-- Map<String, List<LetterType>> -->
-                <p:dataTable var="commonWord" value="#{teachingController.letterService.commonWords.keySet().toArray()}">
+                <p:dataTable var="commonWord" value="#{teachingController.letterService.commonWords.keySet().toArray()}"
+                             stickyHeader="true">
                     <f:facet name="header">
                         Common words
                     </f:facet>
@@ -90,7 +90,8 @@
                         [Total: #{teachingController.letterService.commonWords.get(commonWord).size()} letters]
                     </p:column>
                 </p:dataTable>
-                <p:dataTable var="letter" value="#{teachingController.knowledgeBase.lettersRanges.keySet().toArray()}">
+                <p:dataTable var="letter" value="#{teachingController.knowledgeBase.lettersRanges.keySet().toArray()}"
+                             stickyHeader="true">
                     <f:facet name="header">
                         Knowledge Base - Letters Ranges
                     </f:facet>
@@ -101,7 +102,8 @@
                         #{teachingController.knowledgeBase.lettersRanges.get(letter).toFullString()}<br/>
                     </p:column>
                 </p:dataTable>
-                <p:dataTable var="aWord" value="#{teachingController.knowledgeBase.wordsWeights.keySet().toArray()}">
+                <p:dataTable var="aWord" value="#{teachingController.knowledgeBase.wordsWeights.keySet().toArray()}"
+                             stickyHeader="true">
                     <f:facet name="header">
                         Knowledge Base - Words Weights
                     </f:facet>

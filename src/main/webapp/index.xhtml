@@ -13,33 +13,35 @@
     <!--<meta http-equiv="refresh" content="0; url=home.xhtml"/>-->
     <!--</c:if>-->
     <!--<script src="https://use.fontawesome.com/51d1b53670.js" type="application/javascript"/>-->
-    <!--<h:outputStylesheet library="css" name="index.css"/>-->
+    <h:outputStylesheet library="css" name="head.css"/>
+    <h:outputStylesheet library="css" name="commons.css"/>
+    <h:outputStylesheet library="css" name="index-page.css"/>
 </h:head>
 <h:body>
     <comp:head/>
     <p:growl autoUpdate="true"/>
     <div class="main">
-        <h:form id="letter-form" enctype="multipart/form-data" acceptcharset="utf-8">
+        <h:form id="letter-form" enctype="multipart/form-data" acceptcharset="utf-8" styleClass="letter-form">
             <h:inputFile id="file" value="#{classificationController.file}"
                          validator="#{classificationController.validateFile}"/>
-            <h:outputText value="or paste a letter text in fields below"/>
+            <span>or paste a letter text in fields below</span>
             <h:inputTextarea name="letter-textfield" id="letter-textfield" rows="16" cols="50"
                              styleClass="unresizable"/>
-            <h:commandButton value="Classificate" update="classificated"
+            <h:commandButton value="Classificate" update="classificated" styleClass="button"
                              actionListener="#{classificationController.classificateActionListener}">
             </h:commandButton>
         </h:form>
-        <div>
-            <h:form id="classificated" acceptcharset="utf-8" rendered="#{classificationController.classificated}">
+        <div class="classification-results">
+            <h:form id="classificated" acceptcharset="utf-8" rendered="#{classificationController.classificated}" styleClass="classificated-form">
                 <c:set value="#{classificationController.getMostPossibleLetterType()}" var="mostPossible"/>
-                The letter relates to the type: <h:outputText value="#{mostPossible}" id="classified-letter-type"/><br/>
-                <h:commandButton value="Accept" action="index.xhtml"/>
+                <span>The letter relates to the type: <h:outputText value="#{mostPossible}" id="classified-letter-type" styleClass="classificated-letter"/></span>
+                <h:commandButton value="Accept" action="index.xhtml" styleClass="button"/>
                 or select right letter type from list and preee 'Adjust decision'
-                <h:selectOneMenu rendered="true" id="manual-selected-letter-type" value="ssss">
+                <h:selectOneMenu rendered="true" id="manual-selected-letter-type" value="ssss" styleClass="letter-list">
                     <f:selectItems value="#{classificationController.classificationResults.keySet().toArray()}" var="letter" itemLabel="#{letter.tags.get(0)}"
                                    itemValue="#{letter}" />
                 </h:selectOneMenu>
-                <h:commandButton value="Adjust decision" action="#{classificationController.adjustDecision()}"/>
+                <h:commandButton value="Adjust decision" action="#{classificationController.adjustDecision()}" styleClass="button"/>
                 <ui:repeat value="#{classificationController.classificationResults.keySet().toArray()}"
                            var="letterType">
                     <h:panelGrid columns="5" rendered="#{letterType.tags.get(0).equals(mostPossible)}">

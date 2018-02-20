@@ -20,27 +20,27 @@
     <comp:head/>
     <p:growl autoUpdate="true"/>
     <div class="main">
-        <p:panel id="basic" header="Обучение по содержимому письма">
+        <p:panel id="basic" header="Навчання по змісту листа">
             <h:panelGrid columns="1" id="rerunnable">
                 <p:dataTable var="letterType" value="#{teachingController.letterService.letterTypes}"
                              stickyHeader="true">
                     <f:facet name="header">
-                        Общая информация
+                        Загальна інформація
                     </f:facet>
-                    <p:column headerText="Метки">
+                    <p:column headerText="Мітки">
                         <ui:repeat value="#{letterType.tags}" var="tag">
                             #{tag}<br/>
                         </ui:repeat>
-                        [Всего писем: #{letterType.analyzedNumber}]<br/>
+                        [Усього листів: #{letterType.analyzedNumber}]<br/>
                     </p:column>
 
-                    <p:column headerText="Описание">
+                    <p:column headerText="Опис">
                         <ui:repeat value="#{letterType.localizedDescription.keySet().toArray()}" var="desc">
                             #{letterType.getSupportLocaleText(desc)} #{letterType.localizedDescription.get(desc)}<br/>
                         </ui:repeat>
                     </p:column>
 
-                    <p:column headerText="Дополнительные метки">
+                    <p:column headerText="Додаткові мітки">
                         <ui:repeat value="#{letterType.additionalTags}" var="additionalTag">
                             #{additionalTag.getLocalizedDescription('ru')}<br/>
                         </ui:repeat>
@@ -48,12 +48,12 @@
 
                     <c:set var="mostUsedWords" value="#{teachingController.letterService.mostUsedWordsByLetters}"/>
                     <p:column
-                            headerText="Возможные ключевые слова&lt;br/&gt;&lt;span style='font-size: smaller'&gt;каждое слово с числом букв 4+&lt;/span&gt;">
+                            headerText="Можливі ключові слова&lt;br/&gt;&lt;span style='font-size: smaller'&gt;кожне слово з числом літер 4+&lt;/span&gt;">
                         <h:outputText id="no-unique" rendered="#{letterType.contentAnalyzer.uniqueWords.isEmpty()}"
-                                      styleClass="no-unique-message" value="Письмо не содержит уникальных слов."/>
+                                      styleClass="no-unique-message" value="Лист не містить унікальних слів."/>
                         <h:outputText id="unique-count" rendered="#{!letterType.contentAnalyzer.uniqueWords.isEmpty()}"
                                       styleClass="no-unique-message"
-                                      value="Уникальный слов: #{letterType.contentAnalyzer.uniqueWords.size()} / всего: #{letterType.contentAnalyzer.wordsCounterFiltered.size()}"/><br/>
+                                      value="Унікальних слів: #{letterType.contentAnalyzer.uniqueWords.size()} / усього: #{letterType.contentAnalyzer.wordsCounterFiltered.size()}"/><br/>
                         <ui:repeat value="#{letterType.contentAnalyzer.getWordsCounterFiltered().keySet().toArray()}"
                                    var="word">
                             <c:set value="#{letterType.contentAnalyzer.uniqueWords.contains(word)}" var="isUnique"/>
@@ -61,11 +61,11 @@
                                    var="isMostUsed"/>
                             <h:outputText
                                     rendered="#{isMostUsed and !isUnique}"
-                                    styleClass="most-used" title="наиболее часто используемое"
+                                    styleClass="most-used" title="найбільш часто використовуються"
                                     value="#{word}: #{letterType.contentAnalyzer.wordsCounter.get(word)}"/>
                             <h:outputText
                                     rendered="#{isUnique}"
-                                    styleClass="unique" title="уникальное слово"
+                                    styleClass="unique" title="унікальне слово"
                                     value="#{word}: #{letterType.contentAnalyzer.wordsCounter.get(word)}"/>
                             <h:outputText rendered="#{!isUnique and !isMostUsed}"
                                           value="#{word}: #{letterType.contentAnalyzer.wordsCounter.get(word)}"/>
@@ -77,45 +77,45 @@
                 <p:dataTable var="commonWord" value="#{teachingController.letterService.commonWords.keySet().toArray()}"
                              stickyHeader="true">
                     <f:facet name="header">
-                        Общие слова
+                        Спільні слова
                     </f:facet>
                     <p:column headerText="Слово">
                         #{commonWord}<br/>
                     </p:column>
-                    <p:column headerText="Тип письма">
+                    <p:column headerText="Тип листа">
                         <ui:repeat value="#{teachingController.letterService.commonWords.get(commonWord).toArray()}"
                                    var="letterType1">
                             #{letterType1.tags.get(0)},
                         </ui:repeat><br/>
-                        [Total: #{teachingController.letterService.commonWords.get(commonWord).size()} letters]
+                        [Усього: #{teachingController.letterService.commonWords.get(commonWord).size()} letters]
                     </p:column>
                 </p:dataTable>
                 <p:dataTable var="letter" value="#{teachingController.knowledgeBase.lettersRanges.keySet().toArray()}"
                              stickyHeader="true">
                     <f:facet name="header">
-                        База знаний - Интервалы писем
+                        База знань - Інтервали листів
                     </f:facet>
-                    <p:column headerText="Письмо">
+                    <p:column headerText="Лист">
                         #{letter}<br/>
                     </p:column>
-                    <p:column headerText="Интервал">
+                    <p:column headerText="Інтервал">
                         #{teachingController.knowledgeBase.lettersRanges.get(letter).toFullString()}<br/>
                     </p:column>
                 </p:dataTable>
                 <p:dataTable var="aWord" value="#{teachingController.knowledgeBase.wordsWeights.keySet().toArray()}"
                              stickyHeader="true">
                     <f:facet name="header">
-                        База знаний - Веса слов
+                        База знань - Ваги слів
                     </f:facet>
                     <p:column headerText="Слово">
                         #{aWord}<br/>
                     </p:column>
-                    <p:column headerText="Интервал (вес)">
+                    <p:column headerText="Інтервал (вага)">
                         <ui:repeat value="#{teachingController.knowledgeBase.wordsWeights.get(aWord).toArray()}"
                                    var="range">
                             #{range},
                         </ui:repeat><br/>
-                        [Всего интервалов: #{teachingController.knowledgeBase.wordsWeights.get(aWord).size()}]
+                        [Усього інтервалів: #{teachingController.knowledgeBase.wordsWeights.get(aWord).size()}]
                     </p:column>
                 </p:dataTable>
             </h:panelGrid>

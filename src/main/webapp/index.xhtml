@@ -24,24 +24,24 @@
         <h:form id="letter-form" enctype="multipart/form-data" acceptcharset="utf-8" styleClass="letter-form">
             <h:inputFile id="file" value="#{classificationController.file}"
                          validator="#{classificationController.validateFile}"/>
-            <span>или вставьте содержимое письма в поле ниже</span>
+            <span>або вставте зміст листа у поле нижче</span>
             <h:inputTextarea name="letter-textfield" id="letter-textfield" rows="16" cols="50"
                              styleClass="unresizable"/>
-            <h:commandButton value="Классифицировать" update="classificated" styleClass="button"
+            <h:commandButton value="Класифікувати" update="classificated" styleClass="button"
                              actionListener="#{classificationController.classificateActionListener}">
             </h:commandButton>
         </h:form>
         <div class="classification-results">
             <h:form id="classificated" acceptcharset="utf-8" rendered="#{classificationController.classificated}" styleClass="classificated-form">
                 <c:set value="#{classificationController.getMostPossibleLetterType()}" var="mostPossible"/>
-                <span>Письмо относится к типу: <h:outputText value="#{mostPossible}" id="classified-letter-type" styleClass="classificated-letter"/></span>
-                <h:commandButton value="Принять" action="index.xhtml" styleClass="button"/>
-                или выбирете нужный тип письма со списка и нажмите 'Править решение'
+                <span>Лист відноситься до типу: <h:outputText value="#{mostPossible}" id="classified-letter-type" styleClass="classificated-letter"/></span>
+                <h:commandButton value="Прийняти" action="index.xhtml" styleClass="button"/>
+                або виберіть потрібний тип листа зі списку та натисніть 'Змінити рішення'
                 <h:selectOneMenu rendered="true" id="manual-selected-letter-type" value="ssss" styleClass="letter-list">
                     <f:selectItems value="#{classificationController.classificationResults.keySet().toArray()}" var="letter" itemLabel="#{letter.tags.get(0)}"
                                    itemValue="#{letter}" />
                 </h:selectOneMenu>
-                <h:commandButton value="Править решение" action="#{classificationController.adjustDecision()}" styleClass="button"/>
+                <h:commandButton value="Змінити рішення" action="#{classificationController.adjustDecision()}" styleClass="button"/>
                 <ui:repeat value="#{classificationController.classificationResults.keySet().toArray()}"
                            var="letterType">
                     <h:panelGrid columns="5" rendered="#{letterType.tags.get(0).equals(mostPossible)}">
